@@ -1,0 +1,52 @@
+04:09:45.318 [debug] Lager installed handler {lager_file_backend,
+                            "/tmp/build/a0691439/leofs_basho_bench_bin/tests/20160721_040945/error.log"} into lager_event
+04:09:45.318 [debug] Lager installed handler {lager_file_backend,
+                            "/tmp/build/a0691439/leofs_basho_bench_bin/tests/20160721_040945/console.log"} into lager_event
+04:09:45.318 [debug] Lager installed handler error_logger_lager_h into error_logger
+04:09:45.368 [debug] Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.60.0>
+04:09:45.368 [debug] Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.61.0>
+04:09:45.368 [debug] Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.62.0>
+04:09:45.369 [debug] Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0}]) at pid <0.63.0>
+04:09:45.783 [debug] Lager installed handler lager_backend_throttle into lager_event
+04:09:46.384 [info] Application lager started on node nonode@nohost
+04:09:46.386 [notice] Changed loglevel of /tmp/build/a0691439/leofs_basho_bench_bin/tests/20160721_040945/console.log to debug
+04:09:46.401 [info] Est. data size: 1000.00 MB
+04:09:46.473 [debug] Supervisor sasl_safe_sup started alarm_handler:start_link() at pid <0.73.0>
+04:09:46.473 [debug] Supervisor sasl_safe_sup started overload:start_link() at pid <0.74.0>
+04:09:46.474 [debug] Supervisor sasl_sup started supervisor:start_link({local,sasl_safe_sup}, sasl, safe) at pid <0.72.0>
+04:09:46.487 [debug] Supervisor sasl_sup started release_handler:start_link() at pid <0.75.0>
+04:09:46.487 [info] Application sasl started on node nonode@nohost
+04:09:46.511 [info] Application crypto started on node nonode@nohost
+04:09:46.600 [debug] Supervisor folsom_sup started folsom_sample_slide_sup:start_link() at pid <0.88.0>
+04:09:46.605 [debug] Supervisor folsom_sup started folsom_meter_timer_server:start_link() at pid <0.89.0>
+04:09:46.611 [debug] Supervisor folsom_sup started folsom_metrics_histogram_ets:start_link() at pid <0.90.0>
+04:09:46.611 [info] Application folsom started on node nonode@nohost
+04:09:46.650 [debug] Supervisor basho_bench_sup started basho_bench_stats:start_link() at pid <0.83.0>
+04:09:46.658 [debug] ID 1 generating range 0 to 1000
+04:09:46.658 [debug] random source
+04:09:46.691 [debug] Supervisor ibrowse_sup started ibrowse:start_link() at pid <0.98.0>
+04:09:46.691 [info] Application ibrowse started on node nonode@nohost
+04:09:46.711 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_1, 1) at pid <0.92.0>
+04:09:46.711 [debug] ID 2 generating range 1000 to 2000
+04:09:46.731 [debug] ID 3 generating range 2000 to 3000
+04:09:46.732 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_2, 2) at pid <0.100.0>
+04:09:46.751 [debug] ID 4 generating range 3000 to 4000
+04:09:46.751 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_3, 3) at pid <0.102.0>
+04:09:46.771 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_4, 4) at pid <0.104.0>
+04:09:46.772 [debug] Supervisor kernel_safe_sup started timer:start_link() at pid <0.106.0>
+04:09:46.782 [info] Starting max worker: <0.105.0> on nonode@nohost
+04:09:46.783 [info] Starting max worker: <0.103.0> on nonode@nohost
+04:09:46.783 [debug] sequential_int_gen: <0.105.0>: 0 (0%)
+04:09:46.783 [info] Starting max worker: <0.101.0> on nonode@nohost
+04:09:46.783 [info] Starting max worker: <0.93.0> on nonode@nohost
+04:09:46.783 [debug] sequential_int_gen: <0.103.0>: 0 (0%)
+04:09:46.783 [debug] sequential_int_gen: <0.101.0>: 0 (0%)
+04:09:46.783 [debug] sequential_int_gen: <0.93.0>: 0 (0%)
+04:09:46.783 [info] Application basho_bench started on node nonode@nohost
+04:09:46.844 [debug] Supervisor inet_gethost_native_sup started undefined at pid <0.116.0>
+04:09:46.844 [debug] Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.115.0>
+04:09:49.334 [info] Driver basho_bench_driver_leofs (<0.103.0>) has requested stop: empty_keygen
+04:09:49.335 [info] Driver basho_bench_driver_leofs (<0.101.0>) has requested stop: empty_keygen
+04:09:49.345 [info] Driver basho_bench_driver_leofs (<0.105.0>) has requested stop: empty_keygen
+04:09:49.362 [info] Driver basho_bench_driver_leofs (<0.93.0>) has requested stop: empty_keygen
+04:09:49.386 [info] No Errors.
