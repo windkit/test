@@ -1,0 +1,1259 @@
+12:16:26.671 [debug] Lager installed handler {lager_file_backend,
+                            "/tmp/build/32b99536/leofs_basho_bench_bin/tests/20160823_121626/error.log"} into lager_event
+12:16:26.671 [debug] Lager installed handler {lager_file_backend,
+                            "/tmp/build/32b99536/leofs_basho_bench_bin/tests/20160823_121626/console.log"} into lager_event
+12:16:26.671 [debug] Lager installed handler error_logger_lager_h into error_logger
+12:16:26.729 [debug] Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.60.0>
+12:16:26.729 [debug] Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.61.0>
+12:16:26.729 [debug] Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.62.0>
+12:16:26.729 [debug] Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0}]) at pid <0.63.0>
+12:16:27.129 [debug] Lager installed handler lager_backend_throttle into lager_event
+12:16:27.840 [info] Application lager started on node nonode@nohost
+12:16:27.841 [notice] Changed loglevel of /tmp/build/32b99536/leofs_basho_bench_bin/tests/20160823_121626/console.log to debug
+12:16:27.859 [info] Est. data size: 976.56 GB
+12:16:27.954 [debug] Supervisor sasl_safe_sup started alarm_handler:start_link() at pid <0.73.0>
+12:16:27.955 [debug] Supervisor sasl_safe_sup started overload:start_link() at pid <0.74.0>
+12:16:27.956 [debug] Supervisor sasl_sup started supervisor:start_link({local,sasl_safe_sup}, sasl, safe) at pid <0.72.0>
+12:16:27.978 [debug] Supervisor sasl_sup started release_handler:start_link() at pid <0.75.0>
+12:16:27.978 [info] Application sasl started on node nonode@nohost
+12:16:28.003 [info] Application crypto started on node nonode@nohost
+12:16:28.122 [debug] Supervisor folsom_sup started folsom_sample_slide_sup:start_link() at pid <0.88.0>
+12:16:28.129 [debug] Supervisor folsom_sup started folsom_meter_timer_server:start_link() at pid <0.89.0>
+12:16:28.137 [debug] Supervisor folsom_sup started folsom_metrics_histogram_ets:start_link() at pid <0.90.0>
+12:16:28.137 [info] Application folsom started on node nonode@nohost
+12:16:28.189 [debug] Supervisor basho_bench_sup started basho_bench_stats:start_link() at pid <0.83.0>
+12:16:28.198 [debug] ID 1 generating range 0 to 62500
+12:16:28.198 [debug] random source
+12:16:28.243 [debug] Supervisor ibrowse_sup started ibrowse:start_link() at pid <0.98.0>
+12:16:28.243 [info] Application ibrowse started on node nonode@nohost
+12:16:28.269 [debug] ID 2 generating range 62500 to 125000
+12:16:28.270 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_1, 1) at pid <0.92.0>
+12:16:28.290 [debug] ID 3 generating range 125000 to 187500
+12:16:28.290 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_2, 2) at pid <0.100.0>
+12:16:28.309 [debug] ID 4 generating range 187500 to 250000
+12:16:28.310 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_3, 3) at pid <0.102.0>
+12:16:28.329 [debug] ID 5 generating range 250000 to 312500
+12:16:28.330 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_4, 4) at pid <0.104.0>
+12:16:28.349 [debug] ID 6 generating range 312500 to 375000
+12:16:28.349 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_5, 5) at pid <0.106.0>
+12:16:28.368 [debug] ID 7 generating range 375000 to 437500
+12:16:28.369 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_6, 6) at pid <0.108.0>
+12:16:28.388 [debug] ID 8 generating range 437500 to 500000
+12:16:28.389 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_7, 7) at pid <0.110.0>
+12:16:28.409 [debug] ID 9 generating range 500000 to 562500
+12:16:28.410 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_8, 8) at pid <0.112.0>
+12:16:28.430 [debug] ID 10 generating range 562500 to 625000
+12:16:28.431 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_9, 9) at pid <0.114.0>
+12:16:28.451 [debug] ID 11 generating range 625000 to 687500
+12:16:28.452 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_10, 10) at pid <0.116.0>
+12:16:28.472 [debug] ID 12 generating range 687500 to 750000
+12:16:28.473 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_11, 11) at pid <0.118.0>
+12:16:28.493 [debug] ID 13 generating range 750000 to 812500
+12:16:28.494 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_12, 12) at pid <0.120.0>
+12:16:28.515 [debug] ID 14 generating range 812500 to 875000
+12:16:28.516 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_13, 13) at pid <0.122.0>
+12:16:28.535 [debug] ID 15 generating range 875000 to 937500
+12:16:28.536 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_14, 14) at pid <0.124.0>
+12:16:28.555 [debug] ID 16 generating range 937500 to 1000000
+12:16:28.556 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_15, 15) at pid <0.126.0>
+12:16:28.576 [debug] ID 17 generating range 1000000 to 1062500
+12:16:28.576 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_16, 16) at pid <0.128.0>
+12:16:28.599 [debug] ID 18 generating range 1062500 to 1125000
+12:16:28.600 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_17, 17) at pid <0.130.0>
+12:16:28.623 [debug] ID 19 generating range 1125000 to 1187500
+12:16:28.623 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_18, 18) at pid <0.132.0>
+12:16:28.644 [debug] ID 20 generating range 1187500 to 1250000
+12:16:28.645 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_19, 19) at pid <0.134.0>
+12:16:28.666 [debug] ID 21 generating range 1250000 to 1312500
+12:16:28.666 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_20, 20) at pid <0.136.0>
+12:16:28.687 [debug] ID 22 generating range 1312500 to 1375000
+12:16:28.688 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_21, 21) at pid <0.138.0>
+12:16:28.709 [debug] ID 23 generating range 1375000 to 1437500
+12:16:28.710 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_22, 22) at pid <0.140.0>
+12:16:28.731 [debug] ID 24 generating range 1437500 to 1500000
+12:16:28.732 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_23, 23) at pid <0.142.0>
+12:16:28.753 [debug] ID 25 generating range 1500000 to 1562500
+12:16:28.753 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_24, 24) at pid <0.144.0>
+12:16:28.774 [debug] ID 26 generating range 1562500 to 1625000
+12:16:28.775 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_25, 25) at pid <0.146.0>
+12:16:28.796 [debug] ID 27 generating range 1625000 to 1687500
+12:16:28.796 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_26, 26) at pid <0.148.0>
+12:16:28.816 [debug] ID 28 generating range 1687500 to 1750000
+12:16:28.817 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_27, 27) at pid <0.150.0>
+12:16:28.837 [debug] ID 29 generating range 1750000 to 1812500
+12:16:28.837 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_28, 28) at pid <0.152.0>
+12:16:28.856 [debug] ID 30 generating range 1812500 to 1875000
+12:16:28.857 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_29, 29) at pid <0.154.0>
+12:16:28.876 [debug] ID 31 generating range 1875000 to 1937500
+12:16:28.877 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_30, 30) at pid <0.156.0>
+12:16:28.896 [debug] ID 32 generating range 1937500 to 2000000
+12:16:28.896 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_31, 31) at pid <0.158.0>
+12:16:28.915 [debug] ID 33 generating range 2000000 to 2062500
+12:16:28.916 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_32, 32) at pid <0.160.0>
+12:16:28.935 [debug] ID 34 generating range 2062500 to 2125000
+12:16:28.936 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_33, 33) at pid <0.162.0>
+12:16:28.954 [debug] ID 35 generating range 2125000 to 2187500
+12:16:28.955 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_34, 34) at pid <0.164.0>
+12:16:28.974 [debug] ID 36 generating range 2187500 to 2250000
+12:16:28.975 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_35, 35) at pid <0.166.0>
+12:16:28.994 [debug] ID 37 generating range 2250000 to 2312500
+12:16:28.995 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_36, 36) at pid <0.168.0>
+12:16:29.014 [debug] ID 38 generating range 2312500 to 2375000
+12:16:29.015 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_37, 37) at pid <0.170.0>
+12:16:29.034 [debug] ID 39 generating range 2375000 to 2437500
+12:16:29.035 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_38, 38) at pid <0.172.0>
+12:16:29.054 [debug] ID 40 generating range 2437500 to 2500000
+12:16:29.055 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_39, 39) at pid <0.174.0>
+12:16:29.074 [debug] ID 41 generating range 2500000 to 2562500
+12:16:29.075 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_40, 40) at pid <0.176.0>
+12:16:29.094 [debug] ID 42 generating range 2562500 to 2625000
+12:16:29.095 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_41, 41) at pid <0.178.0>
+12:16:29.114 [debug] ID 43 generating range 2625000 to 2687500
+12:16:29.115 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_42, 42) at pid <0.180.0>
+12:16:29.133 [debug] ID 44 generating range 2687500 to 2750000
+12:16:29.134 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_43, 43) at pid <0.182.0>
+12:16:29.153 [debug] ID 45 generating range 2750000 to 2812500
+12:16:29.154 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_44, 44) at pid <0.184.0>
+12:16:29.173 [debug] ID 46 generating range 2812500 to 2875000
+12:16:29.174 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_45, 45) at pid <0.186.0>
+12:16:29.192 [debug] ID 47 generating range 2875000 to 2937500
+12:16:29.193 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_46, 46) at pid <0.188.0>
+12:16:29.212 [debug] ID 48 generating range 2937500 to 3000000
+12:16:29.213 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_47, 47) at pid <0.190.0>
+12:16:29.232 [debug] ID 49 generating range 3000000 to 3062500
+12:16:29.232 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_48, 48) at pid <0.192.0>
+12:16:29.251 [debug] ID 50 generating range 3062500 to 3125000
+12:16:29.252 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_49, 49) at pid <0.194.0>
+12:16:29.271 [debug] ID 51 generating range 3125000 to 3187500
+12:16:29.272 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_50, 50) at pid <0.196.0>
+12:16:29.291 [debug] ID 52 generating range 3187500 to 3250000
+12:16:29.291 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_51, 51) at pid <0.198.0>
+12:16:29.310 [debug] ID 53 generating range 3250000 to 3312500
+12:16:29.311 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_52, 52) at pid <0.200.0>
+12:16:29.330 [debug] ID 54 generating range 3312500 to 3375000
+12:16:29.330 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_53, 53) at pid <0.202.0>
+12:16:29.349 [debug] ID 55 generating range 3375000 to 3437500
+12:16:29.350 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_54, 54) at pid <0.204.0>
+12:16:29.369 [debug] ID 56 generating range 3437500 to 3500000
+12:16:29.369 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_55, 55) at pid <0.206.0>
+12:16:29.388 [debug] ID 57 generating range 3500000 to 3562500
+12:16:29.389 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_56, 56) at pid <0.208.0>
+12:16:29.410 [debug] ID 58 generating range 3562500 to 3625000
+12:16:29.410 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_57, 57) at pid <0.210.0>
+12:16:29.429 [debug] ID 59 generating range 3625000 to 3687500
+12:16:29.430 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_58, 58) at pid <0.212.0>
+12:16:29.449 [debug] ID 60 generating range 3687500 to 3750000
+12:16:29.450 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_59, 59) at pid <0.214.0>
+12:16:29.469 [debug] ID 61 generating range 3750000 to 3812500
+12:16:29.470 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_60, 60) at pid <0.216.0>
+12:16:29.489 [debug] ID 62 generating range 3812500 to 3875000
+12:16:29.489 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_61, 61) at pid <0.218.0>
+12:16:29.508 [debug] ID 63 generating range 3875000 to 3937500
+12:16:29.509 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_62, 62) at pid <0.220.0>
+12:16:29.528 [debug] ID 64 generating range 3937500 to 4000000
+12:16:29.529 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_63, 63) at pid <0.222.0>
+12:16:29.548 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_64, 64) at pid <0.224.0>
+12:16:29.549 [debug] Supervisor kernel_safe_sup started timer:start_link() at pid <0.226.0>
+12:16:29.559 [info] Starting max worker: <0.225.0> on nonode@nohost
+12:16:29.559 [info] Starting max worker: <0.223.0> on nonode@nohost
+12:16:29.559 [info] Starting max worker: <0.221.0> on nonode@nohost
+12:16:29.559 [info] Starting max worker: <0.219.0> on nonode@nohost
+12:16:29.559 [debug] sequential_int_gen: <0.225.0>: 0 (0%)
+12:16:29.559 [debug] sequential_int_gen: <0.223.0>: 0 (0%)
+12:16:29.559 [debug] sequential_int_gen: <0.221.0>: 0 (0%)
+12:16:29.559 [debug] sequential_int_gen: <0.219.0>: 0 (0%)
+12:16:29.559 [info] Starting max worker: <0.215.0> on nonode@nohost
+12:16:29.559 [info] Starting max worker: <0.217.0> on nonode@nohost
+12:16:29.559 [info] Starting max worker: <0.213.0> on nonode@nohost
+12:16:29.559 [debug] sequential_int_gen: <0.215.0>: 0 (0%)
+12:16:29.559 [debug] sequential_int_gen: <0.217.0>: 0 (0%)
+12:16:29.559 [info] Starting max worker: <0.209.0> on nonode@nohost
+12:16:29.559 [info] Starting max worker: <0.211.0> on nonode@nohost
+12:16:29.559 [debug] sequential_int_gen: <0.213.0>: 0 (0%)
+12:16:29.559 [debug] sequential_int_gen: <0.209.0>: 0 (0%)
+12:16:29.560 [debug] sequential_int_gen: <0.211.0>: 0 (0%)
+12:16:29.560 [info] Starting max worker: <0.207.0> on nonode@nohost
+12:16:29.560 [info] Starting max worker: <0.205.0> on nonode@nohost
+12:16:29.560 [debug] sequential_int_gen: <0.207.0>: 0 (0%)
+12:16:29.560 [debug] sequential_int_gen: <0.205.0>: 0 (0%)
+12:16:29.560 [info] Starting max worker: <0.203.0> on nonode@nohost
+12:16:29.560 [info] Starting max worker: <0.199.0> on nonode@nohost
+12:16:29.560 [info] Starting max worker: <0.201.0> on nonode@nohost
+12:16:29.560 [info] Starting max worker: <0.197.0> on nonode@nohost
+12:16:29.560 [debug] sequential_int_gen: <0.203.0>: 0 (0%)
+12:16:29.560 [debug] sequential_int_gen: <0.201.0>: 0 (0%)
+12:16:29.560 [info] Starting max worker: <0.195.0> on nonode@nohost
+12:16:29.560 [debug] sequential_int_gen: <0.199.0>: 0 (0%)
+12:16:29.560 [info] Starting max worker: <0.191.0> on nonode@nohost
+12:16:29.560 [info] Starting max worker: <0.193.0> on nonode@nohost
+12:16:29.560 [debug] sequential_int_gen: <0.197.0>: 0 (0%)
+12:16:29.560 [debug] sequential_int_gen: <0.195.0>: 0 (0%)
+12:16:29.560 [debug] sequential_int_gen: <0.191.0>: 0 (0%)
+12:16:29.560 [info] Starting max worker: <0.187.0> on nonode@nohost
+12:16:29.560 [info] Starting max worker: <0.189.0> on nonode@nohost
+12:16:29.560 [debug] sequential_int_gen: <0.193.0>: 0 (0%)
+12:16:29.560 [info] Starting max worker: <0.185.0> on nonode@nohost
+12:16:29.560 [debug] sequential_int_gen: <0.185.0>: 0 (0%)
+12:16:29.560 [debug] sequential_int_gen: <0.187.0>: 0 (0%)
+12:16:29.560 [info] Starting max worker: <0.183.0> on nonode@nohost
+12:16:29.561 [debug] sequential_int_gen: <0.189.0>: 0 (0%)
+12:16:29.561 [info] Starting max worker: <0.181.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.179.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.177.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.175.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.171.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.173.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.167.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.163.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.169.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.165.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.161.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.155.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.157.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.153.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.147.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.149.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.159.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.151.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.143.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.145.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.139.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.141.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.135.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.137.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.133.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.131.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.129.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.127.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.125.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.123.0> on nonode@nohost
+12:16:29.561 [info] Starting max worker: <0.119.0> on nonode@nohost
+12:16:29.562 [info] Starting max worker: <0.117.0> on nonode@nohost
+12:16:29.562 [info] Starting max worker: <0.121.0> on nonode@nohost
+12:16:29.562 [info] Starting max worker: <0.113.0> on nonode@nohost
+12:16:29.562 [info] Starting max worker: <0.115.0> on nonode@nohost
+12:16:29.562 [info] Starting max worker: <0.111.0> on nonode@nohost
+12:16:29.562 [info] Starting max worker: <0.109.0> on nonode@nohost
+12:16:29.562 [info] Starting max worker: <0.103.0> on nonode@nohost
+12:16:29.562 [info] Starting max worker: <0.101.0> on nonode@nohost
+12:16:29.562 [info] Starting max worker: <0.107.0> on nonode@nohost
+12:16:29.562 [info] Starting max worker: <0.93.0> on nonode@nohost
+12:16:29.562 [info] Starting max worker: <0.105.0> on nonode@nohost
+12:16:29.562 [info] Application basho_bench started on node nonode@nohost
+12:16:29.563 [debug] sequential_int_gen: <0.183.0>: 0 (0%)
+12:16:29.563 [debug] sequential_int_gen: <0.181.0>: 0 (0%)
+12:16:29.563 [debug] sequential_int_gen: <0.179.0>: 0 (0%)
+12:16:29.563 [debug] sequential_int_gen: <0.177.0>: 0 (0%)
+12:16:29.564 [debug] sequential_int_gen: <0.175.0>: 0 (0%)
+12:16:29.564 [debug] sequential_int_gen: <0.171.0>: 0 (0%)
+12:16:29.564 [debug] sequential_int_gen: <0.173.0>: 0 (0%)
+12:16:29.564 [debug] sequential_int_gen: <0.167.0>: 0 (0%)
+12:16:29.564 [debug] sequential_int_gen: <0.163.0>: 0 (0%)
+12:16:29.564 [debug] sequential_int_gen: <0.169.0>: 0 (0%)
+12:16:29.564 [debug] sequential_int_gen: <0.165.0>: 0 (0%)
+12:16:29.564 [debug] sequential_int_gen: <0.161.0>: 0 (0%)
+12:16:29.564 [debug] sequential_int_gen: <0.155.0>: 0 (0%)
+12:16:29.564 [debug] sequential_int_gen: <0.157.0>: 0 (0%)
+12:16:29.565 [debug] sequential_int_gen: <0.153.0>: 0 (0%)
+12:16:29.565 [debug] sequential_int_gen: <0.147.0>: 0 (0%)
+12:16:29.565 [debug] sequential_int_gen: <0.159.0>: 0 (0%)
+12:16:29.565 [debug] sequential_int_gen: <0.149.0>: 0 (0%)
+12:16:29.565 [debug] sequential_int_gen: <0.145.0>: 0 (0%)
+12:16:29.565 [debug] sequential_int_gen: <0.151.0>: 0 (0%)
+12:16:29.565 [debug] sequential_int_gen: <0.143.0>: 0 (0%)
+12:16:29.565 [debug] sequential_int_gen: <0.139.0>: 0 (0%)
+12:16:29.565 [debug] sequential_int_gen: <0.141.0>: 0 (0%)
+12:16:29.565 [debug] sequential_int_gen: <0.135.0>: 0 (0%)
+12:16:29.565 [debug] sequential_int_gen: <0.133.0>: 0 (0%)
+12:16:29.565 [debug] sequential_int_gen: <0.137.0>: 0 (0%)
+12:16:29.565 [debug] sequential_int_gen: <0.127.0>: 0 (0%)
+12:16:29.565 [debug] sequential_int_gen: <0.131.0>: 0 (0%)
+12:16:29.565 [debug] sequential_int_gen: <0.129.0>: 0 (0%)
+12:16:29.565 [debug] sequential_int_gen: <0.125.0>: 0 (0%)
+12:16:29.565 [debug] sequential_int_gen: <0.119.0>: 0 (0%)
+12:16:29.565 [debug] sequential_int_gen: <0.123.0>: 0 (0%)
+12:16:29.565 [debug] sequential_int_gen: <0.117.0>: 0 (0%)
+12:16:29.565 [debug] sequential_int_gen: <0.121.0>: 0 (0%)
+12:16:29.565 [debug] sequential_int_gen: <0.113.0>: 0 (0%)
+12:16:29.566 [debug] sequential_int_gen: <0.115.0>: 0 (0%)
+12:16:29.566 [debug] sequential_int_gen: <0.111.0>: 0 (0%)
+12:16:29.566 [debug] sequential_int_gen: <0.109.0>: 0 (0%)
+12:16:29.566 [debug] sequential_int_gen: <0.103.0>: 0 (0%)
+12:16:29.566 [debug] sequential_int_gen: <0.101.0>: 0 (0%)
+12:16:29.566 [debug] sequential_int_gen: <0.107.0>: 0 (0%)
+12:16:29.566 [debug] sequential_int_gen: <0.93.0>: 0 (0%)
+12:16:29.566 [debug] sequential_int_gen: <0.105.0>: 0 (0%)
+12:16:29.627 [debug] Supervisor inet_gethost_native_sup started undefined at pid <0.356.0>
+12:16:29.628 [debug] Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.355.0>
+12:16:43.843 [debug] sequential_int_gen: <0.141.0>: 5000 (8%)
+12:16:43.856 [debug] sequential_int_gen: <0.133.0>: 5000 (8%)
+12:16:43.892 [debug] sequential_int_gen: <0.209.0>: 5000 (8%)
+12:16:43.948 [debug] sequential_int_gen: <0.145.0>: 5000 (8%)
+12:16:43.971 [debug] sequential_int_gen: <0.223.0>: 5000 (8%)
+12:16:44.153 [debug] sequential_int_gen: <0.191.0>: 5000 (8%)
+12:16:44.178 [debug] sequential_int_gen: <0.93.0>: 5000 (8%)
+12:16:44.379 [debug] sequential_int_gen: <0.165.0>: 5000 (8%)
+12:16:44.448 [debug] sequential_int_gen: <0.205.0>: 5000 (8%)
+12:16:44.450 [debug] sequential_int_gen: <0.201.0>: 5000 (8%)
+12:16:44.550 [debug] sequential_int_gen: <0.207.0>: 5000 (8%)
+12:16:44.554 [debug] sequential_int_gen: <0.185.0>: 5000 (8%)
+12:16:44.700 [debug] sequential_int_gen: <0.119.0>: 5000 (8%)
+12:16:44.724 [debug] sequential_int_gen: <0.157.0>: 5000 (8%)
+12:16:44.741 [debug] sequential_int_gen: <0.225.0>: 5000 (8%)
+12:16:44.819 [debug] sequential_int_gen: <0.139.0>: 5000 (8%)
+12:16:44.859 [debug] sequential_int_gen: <0.147.0>: 5000 (8%)
+12:16:44.888 [debug] sequential_int_gen: <0.211.0>: 5000 (8%)
+12:16:44.941 [debug] sequential_int_gen: <0.109.0>: 5000 (8%)
+12:16:44.941 [debug] sequential_int_gen: <0.217.0>: 5000 (8%)
+12:16:44.989 [debug] sequential_int_gen: <0.195.0>: 5000 (8%)
+12:16:44.994 [debug] sequential_int_gen: <0.177.0>: 5000 (8%)
+12:16:45.002 [debug] sequential_int_gen: <0.221.0>: 5000 (8%)
+12:16:45.043 [debug] sequential_int_gen: <0.135.0>: 5000 (8%)
+12:16:45.059 [debug] sequential_int_gen: <0.159.0>: 5000 (8%)
+12:16:45.106 [debug] sequential_int_gen: <0.163.0>: 5000 (8%)
+12:16:45.127 [debug] sequential_int_gen: <0.115.0>: 5000 (8%)
+12:16:45.177 [debug] sequential_int_gen: <0.111.0>: 5000 (8%)
+12:16:45.181 [debug] sequential_int_gen: <0.173.0>: 5000 (8%)
+12:16:45.216 [debug] sequential_int_gen: <0.155.0>: 5000 (8%)
+12:16:45.247 [debug] sequential_int_gen: <0.193.0>: 5000 (8%)
+12:16:45.275 [debug] sequential_int_gen: <0.183.0>: 5000 (8%)
+12:16:45.360 [debug] sequential_int_gen: <0.137.0>: 5000 (8%)
+12:16:45.422 [debug] sequential_int_gen: <0.143.0>: 5000 (8%)
+12:16:45.430 [debug] sequential_int_gen: <0.213.0>: 5000 (8%)
+12:16:45.464 [debug] sequential_int_gen: <0.101.0>: 5000 (8%)
+12:16:45.482 [debug] sequential_int_gen: <0.129.0>: 5000 (8%)
+12:16:45.527 [debug] sequential_int_gen: <0.105.0>: 5000 (8%)
+12:16:45.553 [debug] sequential_int_gen: <0.219.0>: 5000 (8%)
+12:16:45.570 [debug] sequential_int_gen: <0.215.0>: 5000 (8%)
+12:16:45.601 [debug] sequential_int_gen: <0.151.0>: 5000 (8%)
+12:16:45.633 [debug] sequential_int_gen: <0.203.0>: 5000 (8%)
+12:16:45.679 [debug] sequential_int_gen: <0.121.0>: 5000 (8%)
+12:16:45.701 [debug] sequential_int_gen: <0.113.0>: 5000 (8%)
+12:16:45.806 [debug] sequential_int_gen: <0.103.0>: 5000 (8%)
+12:16:45.844 [debug] sequential_int_gen: <0.117.0>: 5000 (8%)
+12:16:45.864 [debug] sequential_int_gen: <0.179.0>: 5000 (8%)
+12:16:45.896 [debug] sequential_int_gen: <0.181.0>: 5000 (8%)
+12:16:45.906 [debug] sequential_int_gen: <0.169.0>: 5000 (8%)
+12:16:45.935 [debug] sequential_int_gen: <0.127.0>: 5000 (8%)
+12:16:46.071 [debug] sequential_int_gen: <0.171.0>: 5000 (8%)
+12:16:46.073 [debug] sequential_int_gen: <0.161.0>: 5000 (8%)
+12:16:46.140 [debug] sequential_int_gen: <0.175.0>: 5000 (8%)
+12:16:46.204 [debug] sequential_int_gen: <0.107.0>: 5000 (8%)
+12:16:46.269 [debug] sequential_int_gen: <0.153.0>: 5000 (8%)
+12:16:46.320 [debug] sequential_int_gen: <0.149.0>: 5000 (8%)
+12:16:46.328 [debug] sequential_int_gen: <0.197.0>: 5000 (8%)
+12:16:46.340 [debug] sequential_int_gen: <0.131.0>: 5000 (8%)
+12:16:46.390 [debug] sequential_int_gen: <0.125.0>: 5000 (8%)
+12:16:46.539 [debug] sequential_int_gen: <0.189.0>: 5000 (8%)
+12:16:46.600 [debug] sequential_int_gen: <0.187.0>: 5000 (8%)
+12:16:46.653 [debug] sequential_int_gen: <0.123.0>: 5000 (8%)
+12:16:46.746 [debug] sequential_int_gen: <0.199.0>: 5000 (8%)
+12:16:46.860 [debug] sequential_int_gen: <0.167.0>: 5000 (8%)
+12:16:58.064 [debug] sequential_int_gen: <0.191.0>: 10000 (16%)
+12:16:58.833 [debug] sequential_int_gen: <0.145.0>: 10000 (16%)
+12:16:59.167 [debug] sequential_int_gen: <0.225.0>: 10000 (16%)
+12:16:59.510 [debug] sequential_int_gen: <0.135.0>: 10000 (16%)
+12:16:59.529 [debug] sequential_int_gen: <0.93.0>: 10000 (16%)
+12:16:59.661 [debug] sequential_int_gen: <0.147.0>: 10000 (16%)
+12:16:59.822 [debug] sequential_int_gen: <0.139.0>: 10000 (16%)
+12:17:00.008 [debug] sequential_int_gen: <0.223.0>: 10000 (16%)
+12:17:00.015 [debug] sequential_int_gen: <0.205.0>: 10000 (16%)
+12:17:00.036 [debug] sequential_int_gen: <0.133.0>: 10000 (16%)
+12:17:00.111 [debug] sequential_int_gen: <0.207.0>: 10000 (16%)
+12:17:00.305 [debug] sequential_int_gen: <0.193.0>: 10000 (16%)
+12:17:00.311 [debug] sequential_int_gen: <0.211.0>: 10000 (16%)
+12:17:00.349 [debug] sequential_int_gen: <0.143.0>: 10000 (16%)
+12:17:00.369 [debug] sequential_int_gen: <0.113.0>: 10000 (16%)
+12:17:00.375 [debug] sequential_int_gen: <0.165.0>: 10000 (16%)
+12:17:00.375 [debug] sequential_int_gen: <0.209.0>: 10000 (16%)
+12:17:00.391 [debug] sequential_int_gen: <0.217.0>: 10000 (16%)
+12:17:00.405 [debug] sequential_int_gen: <0.201.0>: 10000 (16%)
+12:17:00.453 [debug] sequential_int_gen: <0.183.0>: 10000 (16%)
+12:17:00.462 [debug] sequential_int_gen: <0.105.0>: 10000 (16%)
+12:17:00.573 [debug] sequential_int_gen: <0.141.0>: 10000 (16%)
+12:17:00.613 [debug] sequential_int_gen: <0.117.0>: 10000 (16%)
+12:17:00.827 [debug] sequential_int_gen: <0.103.0>: 10000 (16%)
+12:17:00.851 [debug] sequential_int_gen: <0.115.0>: 10000 (16%)
+12:17:00.863 [debug] sequential_int_gen: <0.119.0>: 10000 (16%)
+12:17:00.875 [debug] sequential_int_gen: <0.159.0>: 10000 (16%)
+12:17:00.921 [debug] sequential_int_gen: <0.195.0>: 10000 (16%)
+12:17:00.950 [debug] sequential_int_gen: <0.121.0>: 10000 (16%)
+12:17:00.960 [debug] sequential_int_gen: <0.185.0>: 10000 (16%)
+12:17:00.999 [debug] sequential_int_gen: <0.155.0>: 10000 (16%)
+12:17:01.101 [debug] sequential_int_gen: <0.129.0>: 10000 (16%)
+12:17:01.193 [debug] sequential_int_gen: <0.101.0>: 10000 (16%)
+12:17:01.193 [debug] sequential_int_gen: <0.137.0>: 10000 (16%)
+12:17:01.267 [debug] sequential_int_gen: <0.213.0>: 10000 (16%)
+12:17:01.284 [debug] sequential_int_gen: <0.151.0>: 10000 (16%)
+12:17:01.294 [debug] sequential_int_gen: <0.161.0>: 10000 (16%)
+12:17:01.308 [debug] sequential_int_gen: <0.163.0>: 10000 (16%)
+12:17:01.400 [debug] sequential_int_gen: <0.203.0>: 10000 (16%)
+12:17:01.410 [debug] sequential_int_gen: <0.171.0>: 10000 (16%)
+12:17:01.465 [debug] sequential_int_gen: <0.153.0>: 10000 (16%)
+12:17:01.515 [debug] sequential_int_gen: <0.109.0>: 10000 (16%)
+12:17:01.534 [debug] sequential_int_gen: <0.215.0>: 10000 (16%)
+12:17:01.579 [debug] sequential_int_gen: <0.221.0>: 10000 (16%)
+12:17:01.582 [debug] sequential_int_gen: <0.127.0>: 10000 (16%)
+12:17:01.597 [debug] sequential_int_gen: <0.175.0>: 10000 (16%)
+12:17:01.640 [debug] sequential_int_gen: <0.111.0>: 10000 (16%)
+12:17:01.672 [debug] sequential_int_gen: <0.157.0>: 10000 (16%)
+12:17:01.825 [debug] sequential_int_gen: <0.219.0>: 10000 (16%)
+12:17:02.049 [debug] sequential_int_gen: <0.189.0>: 10000 (16%)
+12:17:02.182 [debug] sequential_int_gen: <0.179.0>: 10000 (16%)
+12:17:02.211 [debug] sequential_int_gen: <0.125.0>: 10000 (16%)
+12:17:02.244 [debug] sequential_int_gen: <0.107.0>: 10000 (16%)
+12:17:02.286 [debug] sequential_int_gen: <0.123.0>: 10000 (16%)
+12:17:02.386 [debug] sequential_int_gen: <0.149.0>: 10000 (16%)
+12:17:02.500 [debug] sequential_int_gen: <0.177.0>: 10000 (16%)
+12:17:02.501 [debug] sequential_int_gen: <0.131.0>: 10000 (16%)
+12:17:02.521 [debug] sequential_int_gen: <0.197.0>: 10000 (16%)
+12:17:02.736 [debug] sequential_int_gen: <0.167.0>: 10000 (16%)
+12:17:02.792 [debug] sequential_int_gen: <0.173.0>: 10000 (16%)
+12:17:02.851 [debug] sequential_int_gen: <0.199.0>: 10000 (16%)
+12:17:02.907 [debug] sequential_int_gen: <0.181.0>: 10000 (16%)
+12:17:03.360 [debug] sequential_int_gen: <0.169.0>: 10000 (16%)
+12:17:03.377 [debug] sequential_int_gen: <0.187.0>: 10000 (16%)
+12:17:14.465 [debug] sequential_int_gen: <0.225.0>: 15000 (24%)
+12:17:14.579 [debug] sequential_int_gen: <0.191.0>: 15000 (24%)
+12:17:15.220 [debug] sequential_int_gen: <0.211.0>: 15000 (24%)
+12:17:15.319 [debug] sequential_int_gen: <0.145.0>: 15000 (24%)
+12:17:15.419 [debug] sequential_int_gen: <0.223.0>: 15000 (24%)
+12:17:15.534 [debug] sequential_int_gen: <0.135.0>: 15000 (24%)
+12:17:15.607 [debug] sequential_int_gen: <0.147.0>: 15000 (24%)
+12:17:15.633 [debug] sequential_int_gen: <0.101.0>: 15000 (24%)
+12:17:15.938 [debug] sequential_int_gen: <0.183.0>: 15000 (24%)
+12:17:16.055 [debug] sequential_int_gen: <0.129.0>: 15000 (24%)
+12:17:16.076 [debug] sequential_int_gen: <0.133.0>: 15000 (24%)
+12:17:16.107 [debug] sequential_int_gen: <0.217.0>: 15000 (24%)
+12:17:16.148 [debug] sequential_int_gen: <0.115.0>: 15000 (24%)
+12:17:16.160 [debug] sequential_int_gen: <0.205.0>: 15000 (24%)
+12:17:16.202 [debug] sequential_int_gen: <0.185.0>: 15000 (24%)
+12:17:16.206 [debug] sequential_int_gen: <0.113.0>: 15000 (24%)
+12:17:16.342 [debug] sequential_int_gen: <0.93.0>: 15000 (24%)
+12:17:16.396 [debug] sequential_int_gen: <0.207.0>: 15000 (24%)
+12:17:16.449 [debug] sequential_int_gen: <0.219.0>: 15000 (24%)
+12:17:16.491 [debug] sequential_int_gen: <0.111.0>: 15000 (24%)
+12:17:16.562 [debug] sequential_int_gen: <0.143.0>: 15000 (24%)
+12:17:16.613 [debug] sequential_int_gen: <0.117.0>: 15000 (24%)
+12:17:16.742 [debug] sequential_int_gen: <0.103.0>: 15000 (24%)
+12:17:16.802 [debug] sequential_int_gen: <0.193.0>: 15000 (24%)
+12:17:16.809 [debug] sequential_int_gen: <0.105.0>: 15000 (24%)
+12:17:16.820 [debug] sequential_int_gen: <0.153.0>: 15000 (24%)
+12:17:16.888 [debug] sequential_int_gen: <0.201.0>: 15000 (24%)
+12:17:16.894 [debug] sequential_int_gen: <0.159.0>: 15000 (24%)
+12:17:16.957 [debug] sequential_int_gen: <0.165.0>: 15000 (24%)
+12:17:16.960 [debug] sequential_int_gen: <0.139.0>: 15000 (24%)
+12:17:17.007 [debug] sequential_int_gen: <0.213.0>: 15000 (24%)
+12:17:17.187 [debug] sequential_int_gen: <0.209.0>: 15000 (24%)
+12:17:17.192 [debug] sequential_int_gen: <0.151.0>: 15000 (24%)
+12:17:17.197 [debug] sequential_int_gen: <0.137.0>: 15000 (24%)
+12:17:17.266 [debug] sequential_int_gen: <0.141.0>: 15000 (24%)
+12:17:17.296 [debug] sequential_int_gen: <0.161.0>: 15000 (24%)
+12:17:17.310 [debug] sequential_int_gen: <0.175.0>: 15000 (24%)
+12:17:17.348 [debug] sequential_int_gen: <0.119.0>: 15000 (24%)
+12:17:17.443 [debug] sequential_int_gen: <0.109.0>: 15000 (24%)
+12:17:17.561 [debug] sequential_int_gen: <0.177.0>: 15000 (24%)
+12:17:17.570 [debug] sequential_int_gen: <0.171.0>: 15000 (24%)
+12:17:17.646 [debug] sequential_int_gen: <0.107.0>: 15000 (24%)
+12:17:17.713 [debug] sequential_int_gen: <0.155.0>: 15000 (24%)
+12:17:17.737 [debug] sequential_int_gen: <0.163.0>: 15000 (24%)
+12:17:17.767 [debug] sequential_int_gen: <0.121.0>: 15000 (24%)
+12:17:17.778 [debug] sequential_int_gen: <0.215.0>: 15000 (24%)
+12:17:17.866 [debug] sequential_int_gen: <0.203.0>: 15000 (24%)
+12:17:17.916 [debug] sequential_int_gen: <0.189.0>: 15000 (24%)
+12:17:17.930 [debug] sequential_int_gen: <0.127.0>: 15000 (24%)
+12:17:17.981 [debug] sequential_int_gen: <0.195.0>: 15000 (24%)
+12:17:18.097 [debug] sequential_int_gen: <0.149.0>: 15000 (24%)
+12:17:18.134 [debug] sequential_int_gen: <0.181.0>: 15000 (24%)
+12:17:18.455 [debug] sequential_int_gen: <0.221.0>: 15000 (24%)
+12:17:18.584 [debug] sequential_int_gen: <0.123.0>: 15000 (24%)
+12:17:18.734 [debug] sequential_int_gen: <0.157.0>: 15000 (24%)
+12:17:18.806 [debug] sequential_int_gen: <0.197.0>: 15000 (24%)
+12:17:18.814 [debug] sequential_int_gen: <0.125.0>: 15000 (24%)
+12:17:18.908 [debug] sequential_int_gen: <0.187.0>: 15000 (24%)
+12:17:18.944 [debug] sequential_int_gen: <0.167.0>: 15000 (24%)
+12:17:19.038 [debug] sequential_int_gen: <0.131.0>: 15000 (24%)
+12:17:19.184 [debug] sequential_int_gen: <0.199.0>: 15000 (24%)
+12:17:19.683 [debug] sequential_int_gen: <0.179.0>: 15000 (24%)
+12:17:19.856 [debug] sequential_int_gen: <0.173.0>: 15000 (24%)
+12:17:20.034 [info] Errors:[{{put,put},1},{{{put,put},{put,connection_closing}},1}]
+12:17:20.255 [debug] sequential_int_gen: <0.169.0>: 15000 (24%)
+12:17:29.776 [debug] sequential_int_gen: <0.225.0>: 20000 (32%)
+12:17:29.823 [debug] sequential_int_gen: <0.191.0>: 20000 (32%)
+12:17:30.034 [info] Errors:[{{put,put},1},{{{put,put},{put,connection_closing}},1}]
+12:17:30.700 [debug] sequential_int_gen: <0.185.0>: 20000 (32%)
+12:17:30.748 [debug] sequential_int_gen: <0.145.0>: 20000 (32%)
+12:17:30.822 [debug] sequential_int_gen: <0.147.0>: 20000 (32%)
+12:17:30.891 [debug] sequential_int_gen: <0.211.0>: 20000 (32%)
+12:17:31.120 [debug] sequential_int_gen: <0.219.0>: 20000 (32%)
+12:17:31.367 [debug] sequential_int_gen: <0.207.0>: 20000 (32%)
+12:17:31.558 [debug] sequential_int_gen: <0.143.0>: 20000 (32%)
+12:17:31.729 [debug] sequential_int_gen: <0.201.0>: 20000 (32%)
+12:17:31.773 [debug] sequential_int_gen: <0.117.0>: 20000 (32%)
+12:17:31.992 [debug] sequential_int_gen: <0.135.0>: 20000 (32%)
+12:17:32.039 [debug] sequential_int_gen: <0.183.0>: 20000 (32%)
+12:17:32.070 [debug] sequential_int_gen: <0.101.0>: 20000 (32%)
+12:17:32.073 [debug] sequential_int_gen: <0.217.0>: 20000 (32%)
+12:17:32.215 [debug] sequential_int_gen: <0.133.0>: 20000 (32%)
+12:17:32.284 [debug] sequential_int_gen: <0.139.0>: 20000 (32%)
+12:17:32.382 [debug] sequential_int_gen: <0.159.0>: 20000 (32%)
+12:17:32.461 [debug] sequential_int_gen: <0.93.0>: 20000 (32%)
+12:17:32.509 [debug] sequential_int_gen: <0.205.0>: 20000 (32%)
+12:17:32.541 [debug] sequential_int_gen: <0.113.0>: 20000 (32%)
+12:17:32.566 [debug] sequential_int_gen: <0.213.0>: 20000 (32%)
+12:17:32.646 [debug] sequential_int_gen: <0.129.0>: 20000 (32%)
+12:17:32.675 [debug] sequential_int_gen: <0.193.0>: 20000 (32%)
+12:17:32.753 [debug] sequential_int_gen: <0.151.0>: 20000 (32%)
+12:17:32.780 [debug] sequential_int_gen: <0.153.0>: 20000 (32%)
+12:17:32.812 [debug] sequential_int_gen: <0.141.0>: 20000 (32%)
+12:17:32.858 [debug] sequential_int_gen: <0.189.0>: 20000 (32%)
+12:17:32.919 [debug] sequential_int_gen: <0.223.0>: 20000 (32%)
+12:17:32.941 [debug] sequential_int_gen: <0.163.0>: 20000 (32%)
+12:17:32.966 [debug] sequential_int_gen: <0.105.0>: 20000 (32%)
+12:17:32.974 [debug] sequential_int_gen: <0.161.0>: 20000 (32%)
+12:17:32.978 [debug] sequential_int_gen: <0.111.0>: 20000 (32%)
+12:17:33.016 [debug] sequential_int_gen: <0.127.0>: 20000 (32%)
+12:17:33.050 [debug] sequential_int_gen: <0.115.0>: 20000 (32%)
+12:17:33.110 [debug] sequential_int_gen: <0.121.0>: 20000 (32%)
+12:17:33.142 [debug] sequential_int_gen: <0.175.0>: 20000 (32%)
+12:17:33.281 [debug] sequential_int_gen: <0.165.0>: 20000 (32%)
+12:17:33.283 [debug] sequential_int_gen: <0.137.0>: 20000 (32%)
+12:17:33.334 [debug] sequential_int_gen: <0.107.0>: 20000 (32%)
+12:17:33.388 [debug] sequential_int_gen: <0.119.0>: 20000 (32%)
+12:17:33.391 [debug] sequential_int_gen: <0.197.0>: 20000 (32%)
+12:17:33.522 [debug] sequential_int_gen: <0.215.0>: 20000 (32%)
+12:17:33.548 [debug] sequential_int_gen: <0.109.0>: 20000 (32%)
+12:17:33.645 [debug] sequential_int_gen: <0.177.0>: 20000 (32%)
+12:17:33.710 [debug] sequential_int_gen: <0.103.0>: 20000 (32%)
+12:17:33.774 [debug] sequential_int_gen: <0.181.0>: 20000 (32%)
+12:17:33.835 [debug] sequential_int_gen: <0.131.0>: 20000 (32%)
+12:17:33.880 [debug] sequential_int_gen: <0.149.0>: 20000 (32%)
+12:17:34.191 [debug] sequential_int_gen: <0.195.0>: 20000 (32%)
+12:17:34.329 [debug] sequential_int_gen: <0.187.0>: 20000 (32%)
+12:17:34.368 [debug] sequential_int_gen: <0.155.0>: 20000 (32%)
+12:17:34.384 [debug] sequential_int_gen: <0.203.0>: 20000 (32%)
+12:17:34.405 [debug] sequential_int_gen: <0.221.0>: 20000 (32%)
+12:17:34.433 [debug] sequential_int_gen: <0.125.0>: 20000 (32%)
+12:17:34.497 [debug] sequential_int_gen: <0.209.0>: 20000 (32%)
+12:17:34.626 [debug] sequential_int_gen: <0.157.0>: 20000 (32%)
+12:17:34.744 [debug] sequential_int_gen: <0.171.0>: 20000 (32%)
+12:17:34.888 [debug] sequential_int_gen: <0.123.0>: 20000 (32%)
+12:17:34.967 [debug] sequential_int_gen: <0.167.0>: 20000 (32%)
+12:17:35.039 [debug] sequential_int_gen: <0.179.0>: 20000 (32%)
+12:17:35.615 [debug] sequential_int_gen: <0.169.0>: 20000 (32%)
+12:17:36.153 [debug] sequential_int_gen: <0.173.0>: 20000 (32%)
+12:17:36.604 [debug] sequential_int_gen: <0.199.0>: 20000 (32%)
+12:17:40.027 [info] Errors:[{{put,put},2},{{{put,put},{put,connection_closing}},2}]
+12:17:45.197 [debug] sequential_int_gen: <0.225.0>: 25000 (40%)
+12:17:46.300 [debug] sequential_int_gen: <0.211.0>: 25000 (40%)
+12:17:46.396 [debug] sequential_int_gen: <0.143.0>: 25000 (40%)
+12:17:46.495 [debug] sequential_int_gen: <0.191.0>: 25000 (40%)
+12:17:46.499 [debug] sequential_int_gen: <0.147.0>: 25000 (40%)
+12:17:46.579 [debug] sequential_int_gen: <0.219.0>: 25000 (40%)
+12:17:46.702 [debug] sequential_int_gen: <0.207.0>: 25000 (40%)
+12:17:46.853 [debug] sequential_int_gen: <0.139.0>: 25000 (40%)
+12:17:46.955 [debug] sequential_int_gen: <0.135.0>: 25000 (40%)
+12:17:46.996 [debug] sequential_int_gen: <0.185.0>: 25000 (40%)
+12:17:47.187 [debug] sequential_int_gen: <0.163.0>: 25000 (40%)
+12:17:47.264 [debug] sequential_int_gen: <0.129.0>: 25000 (40%)
+12:17:47.465 [debug] sequential_int_gen: <0.145.0>: 25000 (40%)
+12:17:47.525 [debug] sequential_int_gen: <0.217.0>: 25000 (40%)
+12:17:47.660 [debug] sequential_int_gen: <0.101.0>: 25000 (40%)
+12:17:47.746 [debug] sequential_int_gen: <0.93.0>: 25000 (40%)
+12:17:47.746 [debug] sequential_int_gen: <0.151.0>: 25000 (40%)
+12:17:47.774 [debug] sequential_int_gen: <0.117.0>: 25000 (40%)
+12:17:47.836 [debug] sequential_int_gen: <0.205.0>: 25000 (40%)
+12:17:47.889 [debug] sequential_int_gen: <0.105.0>: 25000 (40%)
+12:17:47.947 [debug] sequential_int_gen: <0.111.0>: 25000 (40%)
+12:17:48.057 [debug] sequential_int_gen: <0.161.0>: 25000 (40%)
+12:17:48.066 [debug] sequential_int_gen: <0.159.0>: 25000 (40%)
+12:17:48.071 [debug] sequential_int_gen: <0.127.0>: 25000 (40%)
+12:17:48.075 [debug] sequential_int_gen: <0.183.0>: 25000 (40%)
+12:17:48.441 [debug] sequential_int_gen: <0.175.0>: 25000 (40%)
+12:17:48.546 [debug] sequential_int_gen: <0.213.0>: 25000 (40%)
+12:17:48.761 [debug] sequential_int_gen: <0.193.0>: 25000 (40%)
+12:17:48.771 [debug] sequential_int_gen: <0.201.0>: 25000 (40%)
+12:17:49.032 [debug] sequential_int_gen: <0.195.0>: 25000 (40%)
+12:17:49.032 [debug] sequential_int_gen: <0.155.0>: 25000 (40%)
+12:17:49.131 [debug] sequential_int_gen: <0.113.0>: 25000 (40%)
+12:17:49.194 [debug] sequential_int_gen: <0.165.0>: 25000 (40%)
+12:17:49.279 [debug] sequential_int_gen: <0.215.0>: 25000 (40%)
+12:17:49.289 [debug] sequential_int_gen: <0.153.0>: 25000 (40%)
+12:17:49.334 [debug] sequential_int_gen: <0.167.0>: 25000 (40%)
+12:17:49.515 [debug] sequential_int_gen: <0.223.0>: 25000 (40%)
+12:17:49.516 [debug] sequential_int_gen: <0.149.0>: 25000 (40%)
+12:17:49.524 [debug] sequential_int_gen: <0.107.0>: 25000 (40%)
+12:17:49.552 [debug] sequential_int_gen: <0.121.0>: 25000 (40%)
+12:17:49.608 [debug] sequential_int_gen: <0.133.0>: 25000 (40%)
+12:17:49.624 [debug] sequential_int_gen: <0.171.0>: 25000 (40%)
+12:17:49.636 [debug] sequential_int_gen: <0.115.0>: 25000 (40%)
+12:17:49.667 [debug] sequential_int_gen: <0.137.0>: 25000 (40%)
+12:17:49.695 [debug] sequential_int_gen: <0.189.0>: 25000 (40%)
+12:17:49.744 [debug] sequential_int_gen: <0.187.0>: 25000 (40%)
+12:17:49.774 [debug] sequential_int_gen: <0.209.0>: 25000 (40%)
+12:17:49.843 [debug] sequential_int_gen: <0.141.0>: 25000 (40%)
+12:17:49.887 [debug] sequential_int_gen: <0.119.0>: 25000 (40%)
+12:17:49.906 [debug] sequential_int_gen: <0.177.0>: 25000 (40%)
+12:17:49.927 [debug] sequential_int_gen: <0.109.0>: 25000 (40%)
+12:17:50.009 [info] Errors:[{{put,put},1},{{{put,put},{put,connection_closing}},1}]
+12:17:50.393 [debug] sequential_int_gen: <0.181.0>: 25000 (40%)
+12:17:50.502 [debug] sequential_int_gen: <0.125.0>: 25000 (40%)
+12:17:50.723 [debug] sequential_int_gen: <0.157.0>: 25000 (40%)
+12:17:50.783 [debug] sequential_int_gen: <0.197.0>: 25000 (40%)
+12:17:51.034 [debug] sequential_int_gen: <0.221.0>: 25000 (40%)
+12:17:51.400 [debug] sequential_int_gen: <0.199.0>: 25000 (40%)
+12:17:51.463 [debug] sequential_int_gen: <0.131.0>: 25000 (40%)
+12:17:51.468 [debug] sequential_int_gen: <0.203.0>: 25000 (40%)
+12:17:51.615 [debug] sequential_int_gen: <0.179.0>: 25000 (40%)
+12:17:51.796 [debug] sequential_int_gen: <0.103.0>: 25000 (40%)
+12:17:51.916 [debug] sequential_int_gen: <0.169.0>: 25000 (40%)
+12:17:52.223 [debug] sequential_int_gen: <0.173.0>: 25000 (40%)
+12:17:52.346 [debug] sequential_int_gen: <0.123.0>: 25000 (40%)
+12:17:59.982 [info] Errors:[{{put,put},1},{{{put,put},{put,connection_closing}},1}]
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+Server Overloaded, Sleep 500 ms and Retry
+12:18:03.198 [debug] sequential_int_gen: <0.225.0>: 30000 (48%)
+12:18:03.204 [debug] sequential_int_gen: <0.143.0>: 30000 (48%)
+12:18:03.232 [debug] sequential_int_gen: <0.185.0>: 30000 (48%)
+12:18:03.442 [debug] sequential_int_gen: <0.219.0>: 30000 (48%)
+12:18:03.764 [debug] sequential_int_gen: <0.129.0>: 30000 (48%)
+12:18:04.052 [debug] sequential_int_gen: <0.147.0>: 30000 (48%)
+12:18:04.085 [debug] sequential_int_gen: <0.207.0>: 30000 (48%)
+12:18:04.490 [debug] sequential_int_gen: <0.135.0>: 30000 (48%)
+12:18:04.583 [debug] sequential_int_gen: <0.191.0>: 30000 (48%)
+12:18:04.620 [debug] sequential_int_gen: <0.105.0>: 30000 (48%)
+12:18:04.661 [debug] sequential_int_gen: <0.205.0>: 30000 (48%)
+12:18:04.687 [debug] sequential_int_gen: <0.145.0>: 30000 (48%)
+12:18:04.742 [debug] sequential_int_gen: <0.163.0>: 30000 (48%)
+12:18:04.861 [debug] sequential_int_gen: <0.217.0>: 30000 (48%)
+12:18:04.891 [debug] sequential_int_gen: <0.213.0>: 30000 (48%)
+12:18:04.948 [debug] sequential_int_gen: <0.175.0>: 30000 (48%)
+12:18:05.033 [debug] sequential_int_gen: <0.201.0>: 30000 (48%)
+12:18:05.066 [debug] sequential_int_gen: <0.127.0>: 30000 (48%)
+12:18:05.206 [debug] sequential_int_gen: <0.151.0>: 30000 (48%)
+12:18:05.249 [debug] sequential_int_gen: <0.101.0>: 30000 (48%)
+12:18:05.323 [debug] sequential_int_gen: <0.171.0>: 30000 (48%)
+12:18:05.358 [debug] sequential_int_gen: <0.93.0>: 30000 (48%)
+12:18:05.364 [debug] sequential_int_gen: <0.111.0>: 30000 (48%)
+12:18:05.501 [debug] sequential_int_gen: <0.211.0>: 30000 (48%)
+12:18:05.533 [debug] sequential_int_gen: <0.189.0>: 30000 (48%)
+12:18:05.551 [debug] sequential_int_gen: <0.161.0>: 30000 (48%)
+12:18:05.561 [debug] sequential_int_gen: <0.183.0>: 30000 (48%)
+12:18:05.695 [debug] sequential_int_gen: <0.193.0>: 30000 (48%)
+12:18:05.699 [debug] sequential_int_gen: <0.115.0>: 30000 (48%)
+12:18:05.908 [debug] sequential_int_gen: <0.159.0>: 30000 (48%)
+12:18:06.099 [debug] sequential_int_gen: <0.195.0>: 30000 (48%)
+12:18:06.338 [debug] sequential_int_gen: <0.139.0>: 30000 (48%)
+12:18:06.343 [debug] sequential_int_gen: <0.155.0>: 30000 (48%)
+12:18:06.428 [debug] sequential_int_gen: <0.119.0>: 30000 (48%)
+12:18:06.549 [debug] sequential_int_gen: <0.153.0>: 30000 (48%)
+12:18:06.566 [debug] sequential_int_gen: <0.187.0>: 30000 (48%)
+12:18:06.569 [debug] sequential_int_gen: <0.141.0>: 30000 (48%)
+12:18:06.613 [debug] sequential_int_gen: <0.133.0>: 30000 (48%)
+12:18:06.674 [debug] sequential_int_gen: <0.109.0>: 30000 (48%)
+12:18:06.707 [debug] sequential_int_gen: <0.113.0>: 30000 (48%)
+12:18:06.765 [debug] sequential_int_gen: <0.121.0>: 30000 (48%)
+12:18:06.804 [debug] sequential_int_gen: <0.209.0>: 30000 (48%)
+12:18:06.804 [debug] sequential_int_gen: <0.177.0>: 30000 (48%)
+12:18:06.934 [debug] sequential_int_gen: <0.117.0>: 30000 (48%)
+12:18:07.021 [debug] sequential_int_gen: <0.107.0>: 30000 (48%)
+12:18:07.491 [debug] sequential_int_gen: <0.165.0>: 30000 (48%)
+12:18:07.559 [debug] sequential_int_gen: <0.197.0>: 30000 (48%)
+12:18:07.647 [debug] sequential_int_gen: <0.215.0>: 30000 (48%)
+12:18:07.729 [debug] sequential_int_gen: <0.223.0>: 30000 (48%)
+12:18:07.893 [debug] sequential_int_gen: <0.137.0>: 30000 (48%)
+12:18:07.955 [debug] sequential_int_gen: <0.181.0>: 30000 (48%)
+12:18:07.968 [debug] sequential_int_gen: <0.167.0>: 30000 (48%)
+12:18:08.117 [debug] sequential_int_gen: <0.179.0>: 30000 (48%)
+12:18:08.131 [debug] sequential_int_gen: <0.157.0>: 30000 (48%)
+12:18:08.365 [debug] sequential_int_gen: <0.149.0>: 30000 (48%)
+12:18:08.569 [debug] sequential_int_gen: <0.221.0>: 30000 (48%)
+12:18:08.577 [debug] sequential_int_gen: <0.125.0>: 30000 (48%)
+12:18:08.592 [debug] sequential_int_gen: <0.199.0>: 30000 (48%)
+12:18:09.133 [debug] sequential_int_gen: <0.123.0>: 30000 (48%)
+12:18:09.441 [debug] sequential_int_gen: <0.169.0>: 30000 (48%)
+12:18:09.783 [debug] sequential_int_gen: <0.173.0>: 30000 (48%)
+12:18:09.964 [info] Errors:[{{put,put},2},{{{put,put},{put,connection_closing}},2}]
+12:18:10.227 [debug] sequential_int_gen: <0.103.0>: 30000 (48%)
+12:18:10.231 [debug] sequential_int_gen: <0.131.0>: 30000 (48%)
+12:18:10.802 [debug] sequential_int_gen: <0.203.0>: 30000 (48%)
+12:18:19.799 [info] Errors:[{{put,put},2},{{{put,put},{put,connection_closing}},2}]
+12:18:22.732 [debug] sequential_int_gen: <0.143.0>: 35000 (56%)
+12:18:23.099 [debug] sequential_int_gen: <0.219.0>: 35000 (56%)
+12:18:23.171 [debug] sequential_int_gen: <0.129.0>: 35000 (56%)
+12:18:23.383 [debug] sequential_int_gen: <0.185.0>: 35000 (56%)
+12:18:24.030 [debug] sequential_int_gen: <0.225.0>: 35000 (56%)
+12:18:24.277 [debug] sequential_int_gen: <0.207.0>: 35000 (56%)
+12:18:24.312 [debug] sequential_int_gen: <0.191.0>: 35000 (56%)
+12:18:24.364 [debug] sequential_int_gen: <0.105.0>: 35000 (56%)
+12:18:24.546 [debug] sequential_int_gen: <0.135.0>: 35000 (56%)
+12:18:24.621 [debug] sequential_int_gen: <0.189.0>: 35000 (56%)
+12:18:24.639 [debug] sequential_int_gen: <0.127.0>: 35000 (56%)
+12:18:24.668 [debug] sequential_int_gen: <0.175.0>: 35000 (56%)
+12:18:24.675 [debug] sequential_int_gen: <0.101.0>: 35000 (56%)
+12:18:24.700 [debug] sequential_int_gen: <0.147.0>: 35000 (56%)
+12:18:24.730 [debug] sequential_int_gen: <0.213.0>: 35000 (56%)
+12:18:24.819 [debug] sequential_int_gen: <0.145.0>: 35000 (56%)
+12:18:24.887 [debug] sequential_int_gen: <0.205.0>: 35000 (56%)
+12:18:24.923 [debug] sequential_int_gen: <0.183.0>: 35000 (56%)
+12:18:25.121 [debug] sequential_int_gen: <0.217.0>: 35000 (56%)
+12:18:25.207 [debug] sequential_int_gen: <0.211.0>: 35000 (56%)
+12:18:25.530 [debug] sequential_int_gen: <0.193.0>: 35000 (56%)
+12:18:25.596 [debug] sequential_int_gen: <0.115.0>: 35000 (56%)
+12:18:25.638 [debug] sequential_int_gen: <0.117.0>: 35000 (56%)
+12:18:25.730 [debug] sequential_int_gen: <0.163.0>: 35000 (56%)
+12:18:25.744 [debug] sequential_int_gen: <0.93.0>: 35000 (56%)
+12:18:25.796 [debug] sequential_int_gen: <0.153.0>: 35000 (56%)
+12:18:25.800 [debug] sequential_int_gen: <0.177.0>: 35000 (56%)
+12:18:25.850 [debug] sequential_int_gen: <0.201.0>: 35000 (56%)
+12:18:25.905 [debug] sequential_int_gen: <0.171.0>: 35000 (56%)
+12:18:25.914 [debug] sequential_int_gen: <0.159.0>: 35000 (56%)
+12:18:25.916 [debug] sequential_int_gen: <0.151.0>: 35000 (56%)
+12:18:26.224 [debug] sequential_int_gen: <0.119.0>: 35000 (56%)
+12:18:26.393 [debug] sequential_int_gen: <0.215.0>: 35000 (56%)
+12:18:26.403 [debug] sequential_int_gen: <0.161.0>: 35000 (56%)
+12:18:26.553 [debug] sequential_int_gen: <0.133.0>: 35000 (56%)
+12:18:26.652 [debug] sequential_int_gen: <0.111.0>: 35000 (56%)
+12:18:26.808 [debug] sequential_int_gen: <0.113.0>: 35000 (56%)
+12:18:26.896 [debug] sequential_int_gen: <0.167.0>: 35000 (56%)
+12:18:26.914 [debug] sequential_int_gen: <0.195.0>: 35000 (56%)
+12:18:27.275 [debug] sequential_int_gen: <0.121.0>: 35000 (56%)
+12:18:27.283 [debug] sequential_int_gen: <0.197.0>: 35000 (56%)
+12:18:27.687 [debug] sequential_int_gen: <0.141.0>: 35000 (56%)
+12:18:27.773 [debug] sequential_int_gen: <0.157.0>: 35000 (56%)
+12:18:27.780 [debug] sequential_int_gen: <0.109.0>: 35000 (56%)
+12:18:27.811 [debug] sequential_int_gen: <0.181.0>: 35000 (56%)
+12:18:27.883 [debug] sequential_int_gen: <0.155.0>: 35000 (56%)
+12:18:27.934 [debug] sequential_int_gen: <0.139.0>: 35000 (56%)
+12:18:28.163 [debug] sequential_int_gen: <0.165.0>: 35000 (56%)
+12:18:28.413 [debug] sequential_int_gen: <0.125.0>: 35000 (56%)
+12:18:28.415 [debug] sequential_int_gen: <0.223.0>: 35000 (56%)
+12:18:28.504 [debug] sequential_int_gen: <0.209.0>: 35000 (56%)
+12:18:28.655 [debug] sequential_int_gen: <0.187.0>: 35000 (56%)
+12:18:28.716 [debug] sequential_int_gen: <0.199.0>: 35000 (56%)
+12:18:28.720 [debug] sequential_int_gen: <0.107.0>: 35000 (56%)
+12:18:28.809 [debug] sequential_int_gen: <0.173.0>: 35000 (56%)
+12:18:29.034 [debug] sequential_int_gen: <0.137.0>: 35000 (56%)
+12:18:29.083 [debug] sequential_int_gen: <0.221.0>: 35000 (56%)
+12:18:29.232 [debug] sequential_int_gen: <0.179.0>: 35000 (56%)
+12:18:29.378 [debug] sequential_int_gen: <0.149.0>: 35000 (56%)
+12:18:29.388 [debug] sequential_int_gen: <0.169.0>: 35000 (56%)
+12:18:29.639 [debug] sequential_int_gen: <0.131.0>: 35000 (56%)
+12:18:29.827 [debug] sequential_int_gen: <0.123.0>: 35000 (56%)
+12:18:29.913 [info] Errors:[{{put,put},1},{{{put,put},{put,connection_closing}},1}]
+12:18:30.286 [debug] sequential_int_gen: <0.103.0>: 35000 (56%)
+12:18:31.934 [debug] sequential_int_gen: <0.203.0>: 35000 (56%)
+12:18:38.285 [debug] sequential_int_gen: <0.219.0>: 40000 (64%)
+12:18:38.330 [debug] sequential_int_gen: <0.185.0>: 40000 (64%)
+12:18:38.685 [debug] sequential_int_gen: <0.143.0>: 40000 (64%)
+12:18:39.438 [debug] sequential_int_gen: <0.127.0>: 40000 (64%)
+12:18:39.534 [debug] sequential_int_gen: <0.135.0>: 40000 (64%)
+12:18:39.739 [debug] sequential_int_gen: <0.105.0>: 40000 (64%)
+12:18:39.744 [debug] sequential_int_gen: <0.101.0>: 40000 (64%)
+12:18:40.134 [debug] sequential_int_gen: <0.225.0>: 40000 (64%)
+12:18:40.349 [debug] sequential_int_gen: <0.129.0>: 40000 (64%)
+12:18:40.718 [debug] sequential_int_gen: <0.183.0>: 40000 (64%)
+12:18:40.819 [debug] sequential_int_gen: <0.193.0>: 40000 (64%)
+12:18:40.890 [debug] sequential_int_gen: <0.175.0>: 40000 (64%)
+12:18:41.029 [debug] sequential_int_gen: <0.115.0>: 40000 (64%)
+12:18:41.153 [debug] sequential_int_gen: <0.213.0>: 40000 (64%)
+12:18:41.373 [debug] sequential_int_gen: <0.207.0>: 40000 (64%)
+12:18:41.387 [debug] sequential_int_gen: <0.147.0>: 40000 (64%)
+12:18:41.539 [debug] sequential_int_gen: <0.191.0>: 40000 (64%)
+12:18:41.570 [debug] sequential_int_gen: <0.161.0>: 40000 (64%)
+12:18:41.575 [debug] sequential_int_gen: <0.189.0>: 40000 (64%)
+12:18:41.590 [debug] sequential_int_gen: <0.145.0>: 40000 (64%)
+12:18:41.721 [debug] sequential_int_gen: <0.211.0>: 40000 (64%)
+12:18:41.780 [debug] sequential_int_gen: <0.195.0>: 40000 (64%)
+12:18:41.921 [debug] sequential_int_gen: <0.159.0>: 40000 (64%)
+12:18:41.997 [debug] sequential_int_gen: <0.201.0>: 40000 (64%)
+12:18:42.061 [debug] sequential_int_gen: <0.217.0>: 40000 (64%)
+12:18:42.176 [debug] sequential_int_gen: <0.153.0>: 40000 (64%)
+12:18:42.231 [debug] sequential_int_gen: <0.119.0>: 40000 (64%)
+12:18:42.250 [debug] sequential_int_gen: <0.151.0>: 40000 (64%)
+12:18:42.417 [debug] sequential_int_gen: <0.133.0>: 40000 (64%)
+12:18:42.433 [debug] sequential_int_gen: <0.177.0>: 40000 (64%)
+12:18:42.435 [debug] sequential_int_gen: <0.121.0>: 40000 (64%)
+12:18:42.481 [debug] sequential_int_gen: <0.117.0>: 40000 (64%)
+12:18:42.506 [debug] sequential_int_gen: <0.107.0>: 40000 (64%)
+12:18:42.540 [debug] sequential_int_gen: <0.171.0>: 40000 (64%)
+12:18:42.561 [debug] sequential_int_gen: <0.163.0>: 40000 (64%)
+12:18:42.746 [debug] sequential_int_gen: <0.205.0>: 40000 (64%)
+12:18:42.816 [debug] sequential_int_gen: <0.93.0>: 40000 (64%)
+12:18:42.859 [debug] sequential_int_gen: <0.197.0>: 40000 (64%)
+12:18:42.907 [debug] sequential_int_gen: <0.157.0>: 40000 (64%)
+12:18:42.984 [debug] sequential_int_gen: <0.155.0>: 40000 (64%)
+12:18:43.380 [debug] sequential_int_gen: <0.167.0>: 40000 (64%)
+12:18:43.630 [debug] sequential_int_gen: <0.139.0>: 40000 (64%)
+12:18:43.694 [debug] sequential_int_gen: <0.113.0>: 40000 (64%)
+12:18:43.727 [debug] sequential_int_gen: <0.187.0>: 40000 (64%)
+12:18:43.729 [debug] sequential_int_gen: <0.215.0>: 40000 (64%)
+12:18:43.864 [debug] sequential_int_gen: <0.111.0>: 40000 (64%)
+12:18:44.048 [debug] sequential_int_gen: <0.223.0>: 40000 (64%)
+12:18:44.075 [debug] sequential_int_gen: <0.125.0>: 40000 (64%)
+12:18:44.304 [debug] sequential_int_gen: <0.181.0>: 40000 (64%)
+12:18:44.511 [debug] sequential_int_gen: <0.137.0>: 40000 (64%)
+12:18:44.681 [debug] sequential_int_gen: <0.199.0>: 40000 (64%)
+12:18:44.685 [debug] sequential_int_gen: <0.173.0>: 40000 (64%)
+12:18:44.729 [debug] sequential_int_gen: <0.109.0>: 40000 (64%)
+12:18:44.821 [debug] sequential_int_gen: <0.141.0>: 40000 (64%)
+12:18:44.970 [debug] sequential_int_gen: <0.221.0>: 40000 (64%)
+12:18:44.985 [debug] sequential_int_gen: <0.179.0>: 40000 (64%)
+12:18:45.072 [debug] sequential_int_gen: <0.209.0>: 40000 (64%)
+12:18:45.673 [debug] sequential_int_gen: <0.169.0>: 40000 (64%)
+12:18:45.805 [debug] sequential_int_gen: <0.165.0>: 40000 (64%)
+12:18:45.882 [debug] sequential_int_gen: <0.123.0>: 40000 (64%)
+12:18:46.363 [debug] sequential_int_gen: <0.131.0>: 40000 (64%)
+12:18:47.181 [debug] sequential_int_gen: <0.149.0>: 40000 (64%)
+12:18:47.564 [debug] sequential_int_gen: <0.103.0>: 40000 (64%)
+12:18:49.043 [debug] sequential_int_gen: <0.203.0>: 40000 (64%)
+12:18:50.044 [info] Errors:[{{put,put},1},{{{put,put},{put,connection_closing}},1}]
+12:18:53.422 [debug] sequential_int_gen: <0.185.0>: 45000 (72%)
+12:18:54.240 [debug] sequential_int_gen: <0.219.0>: 45000 (72%)
+12:18:54.690 [debug] sequential_int_gen: <0.143.0>: 45000 (72%)
+12:18:55.145 [debug] sequential_int_gen: <0.225.0>: 45000 (72%)
+12:18:55.659 [debug] sequential_int_gen: <0.183.0>: 45000 (72%)
+12:18:55.669 [debug] sequential_int_gen: <0.135.0>: 45000 (72%)
+12:18:55.936 [debug] sequential_int_gen: <0.115.0>: 45000 (72%)
+12:18:55.991 [debug] sequential_int_gen: <0.101.0>: 45000 (72%)
+12:18:56.077 [debug] sequential_int_gen: <0.175.0>: 45000 (72%)
+12:18:56.340 [debug] sequential_int_gen: <0.129.0>: 45000 (72%)
+12:18:56.355 [debug] sequential_int_gen: <0.207.0>: 45000 (72%)
+12:18:56.385 [debug] sequential_int_gen: <0.147.0>: 45000 (72%)
+12:18:56.811 [debug] sequential_int_gen: <0.127.0>: 45000 (72%)
+12:18:56.823 [debug] sequential_int_gen: <0.189.0>: 45000 (72%)
+12:18:56.955 [debug] sequential_int_gen: <0.105.0>: 45000 (72%)
+12:18:57.336 [debug] sequential_int_gen: <0.193.0>: 45000 (72%)
+12:18:57.401 [debug] sequential_int_gen: <0.157.0>: 45000 (72%)
+12:18:57.444 [debug] sequential_int_gen: <0.191.0>: 45000 (72%)
+12:18:57.493 [debug] sequential_int_gen: <0.213.0>: 45000 (72%)
+12:18:57.563 [debug] sequential_int_gen: <0.201.0>: 45000 (72%)
+12:18:57.627 [debug] sequential_int_gen: <0.121.0>: 45000 (72%)
+12:18:57.819 [debug] sequential_int_gen: <0.145.0>: 45000 (72%)
+12:18:57.830 [debug] sequential_int_gen: <0.161.0>: 45000 (72%)
+12:18:58.106 [debug] sequential_int_gen: <0.211.0>: 45000 (72%)
+12:18:58.118 [debug] sequential_int_gen: <0.195.0>: 45000 (72%)
+12:18:58.137 [debug] sequential_int_gen: <0.93.0>: 45000 (72%)
+12:18:58.266 [debug] sequential_int_gen: <0.177.0>: 45000 (72%)
+12:18:58.306 [debug] sequential_int_gen: <0.107.0>: 45000 (72%)
+12:18:58.332 [debug] sequential_int_gen: <0.153.0>: 45000 (72%)
+12:18:58.454 [debug] sequential_int_gen: <0.171.0>: 45000 (72%)
+12:18:58.649 [debug] sequential_int_gen: <0.119.0>: 45000 (72%)
+12:18:58.651 [debug] sequential_int_gen: <0.155.0>: 45000 (72%)
+12:18:58.692 [debug] sequential_int_gen: <0.197.0>: 45000 (72%)
+12:18:58.786 [debug] sequential_int_gen: <0.217.0>: 45000 (72%)
+12:18:58.789 [debug] sequential_int_gen: <0.133.0>: 45000 (72%)
+12:18:58.933 [debug] sequential_int_gen: <0.159.0>: 45000 (72%)
+12:18:59.079 [debug] sequential_int_gen: <0.151.0>: 45000 (72%)
+12:18:59.171 [debug] sequential_int_gen: <0.117.0>: 45000 (72%)
+12:18:59.176 [debug] sequential_int_gen: <0.205.0>: 45000 (72%)
+12:18:59.438 [debug] sequential_int_gen: <0.215.0>: 45000 (72%)
+12:18:59.489 [debug] sequential_int_gen: <0.187.0>: 45000 (72%)
+12:18:59.572 [debug] sequential_int_gen: <0.167.0>: 45000 (72%)
+12:18:59.606 [debug] sequential_int_gen: <0.163.0>: 45000 (72%)
+12:18:59.700 [debug] sequential_int_gen: <0.223.0>: 45000 (72%)
+12:18:59.774 [debug] sequential_int_gen: <0.113.0>: 45000 (72%)
+12:18:59.799 [debug] sequential_int_gen: <0.111.0>: 45000 (72%)
+12:18:59.926 [debug] sequential_int_gen: <0.173.0>: 45000 (72%)
+12:19:00.031 [debug] sequential_int_gen: <0.141.0>: 45000 (72%)
+12:19:00.106 [debug] sequential_int_gen: <0.139.0>: 45000 (72%)
+12:19:00.183 [debug] sequential_int_gen: <0.137.0>: 45000 (72%)
+12:19:00.230 [debug] sequential_int_gen: <0.179.0>: 45000 (72%)
+12:19:00.246 [debug] sequential_int_gen: <0.221.0>: 45000 (72%)
+12:19:00.522 [debug] sequential_int_gen: <0.199.0>: 45000 (72%)
+12:19:00.609 [debug] sequential_int_gen: <0.209.0>: 45000 (72%)
+12:19:00.797 [debug] sequential_int_gen: <0.109.0>: 45000 (72%)
+12:19:00.874 [debug] sequential_int_gen: <0.125.0>: 45000 (72%)
+12:19:01.072 [debug] sequential_int_gen: <0.169.0>: 45000 (72%)
+12:19:01.131 [debug] sequential_int_gen: <0.181.0>: 45000 (72%)
+12:19:01.581 [debug] sequential_int_gen: <0.165.0>: 45000 (72%)
+12:19:01.760 [debug] sequential_int_gen: <0.131.0>: 45000 (72%)
+12:19:02.183 [debug] sequential_int_gen: <0.123.0>: 45000 (72%)
+12:19:03.529 [debug] sequential_int_gen: <0.103.0>: 45000 (72%)
+12:19:03.758 [debug] sequential_int_gen: <0.149.0>: 45000 (72%)
+12:19:05.335 [debug] sequential_int_gen: <0.203.0>: 45000 (72%)
+12:19:09.822 [debug] sequential_int_gen: <0.185.0>: 50000 (80%)
+12:19:09.968 [info] Errors:[{{put,put},1},{{{put,put},{put,connection_closing}},1}]
+12:19:09.981 [debug] sequential_int_gen: <0.143.0>: 50000 (80%)
+12:19:11.383 [debug] sequential_int_gen: <0.219.0>: 50000 (80%)
+12:19:11.480 [debug] sequential_int_gen: <0.101.0>: 50000 (80%)
+12:19:11.888 [debug] sequential_int_gen: <0.135.0>: 50000 (80%)
+12:19:11.901 [debug] sequential_int_gen: <0.225.0>: 50000 (80%)
+12:19:12.021 [debug] sequential_int_gen: <0.183.0>: 50000 (80%)
+12:19:12.267 [debug] sequential_int_gen: <0.189.0>: 50000 (80%)
+12:19:12.527 [debug] sequential_int_gen: <0.191.0>: 50000 (80%)
+12:19:12.535 [debug] sequential_int_gen: <0.207.0>: 50000 (80%)
+12:19:12.717 [debug] sequential_int_gen: <0.105.0>: 50000 (80%)
+12:19:12.781 [debug] sequential_int_gen: <0.129.0>: 50000 (80%)
+12:19:12.957 [debug] sequential_int_gen: <0.147.0>: 50000 (80%)
+12:19:12.989 [debug] sequential_int_gen: <0.115.0>: 50000 (80%)
+12:19:12.996 [debug] sequential_int_gen: <0.175.0>: 50000 (80%)
+12:19:13.499 [debug] sequential_int_gen: <0.127.0>: 50000 (80%)
+12:19:13.501 [debug] sequential_int_gen: <0.201.0>: 50000 (80%)
+12:19:13.897 [debug] sequential_int_gen: <0.213.0>: 50000 (80%)
+12:19:13.908 [debug] sequential_int_gen: <0.161.0>: 50000 (80%)
+12:19:13.952 [debug] sequential_int_gen: <0.195.0>: 50000 (80%)
+12:19:14.311 [debug] sequential_int_gen: <0.153.0>: 50000 (80%)
+12:19:14.372 [debug] sequential_int_gen: <0.211.0>: 50000 (80%)
+12:19:14.378 [debug] sequential_int_gen: <0.171.0>: 50000 (80%)
+12:19:14.404 [debug] sequential_int_gen: <0.193.0>: 50000 (80%)
+12:19:14.474 [debug] sequential_int_gen: <0.157.0>: 50000 (80%)
+12:19:14.574 [debug] sequential_int_gen: <0.159.0>: 50000 (80%)
+12:19:14.635 [debug] sequential_int_gen: <0.217.0>: 50000 (80%)
+12:19:14.752 [debug] sequential_int_gen: <0.107.0>: 50000 (80%)
+12:19:14.844 [debug] sequential_int_gen: <0.197.0>: 50000 (80%)
+12:19:14.868 [debug] sequential_int_gen: <0.121.0>: 50000 (80%)
+12:19:14.890 [debug] sequential_int_gen: <0.205.0>: 50000 (80%)
+12:19:15.094 [debug] sequential_int_gen: <0.155.0>: 50000 (80%)
+12:19:15.126 [debug] sequential_int_gen: <0.93.0>: 50000 (80%)
+12:19:15.236 [debug] sequential_int_gen: <0.113.0>: 50000 (80%)
+12:19:15.267 [debug] sequential_int_gen: <0.119.0>: 50000 (80%)
+12:19:15.376 [debug] sequential_int_gen: <0.177.0>: 50000 (80%)
+12:19:15.594 [debug] sequential_int_gen: <0.173.0>: 50000 (80%)
+12:19:15.801 [debug] sequential_int_gen: <0.215.0>: 50000 (80%)
+12:19:15.848 [debug] sequential_int_gen: <0.145.0>: 50000 (80%)
+12:19:15.856 [debug] sequential_int_gen: <0.151.0>: 50000 (80%)
+12:19:15.899 [debug] sequential_int_gen: <0.133.0>: 50000 (80%)
+12:19:15.970 [debug] sequential_int_gen: <0.223.0>: 50000 (80%)
+12:19:16.156 [debug] sequential_int_gen: <0.209.0>: 50000 (80%)
+12:19:16.255 [debug] sequential_int_gen: <0.179.0>: 50000 (80%)
+12:19:16.340 [debug] sequential_int_gen: <0.111.0>: 50000 (80%)
+12:19:16.377 [debug] sequential_int_gen: <0.167.0>: 50000 (80%)
+12:19:16.466 [debug] sequential_int_gen: <0.163.0>: 50000 (80%)
+12:19:16.631 [debug] sequential_int_gen: <0.187.0>: 50000 (80%)
+12:19:16.753 [debug] sequential_int_gen: <0.137.0>: 50000 (80%)
+12:19:16.766 [debug] sequential_int_gen: <0.117.0>: 50000 (80%)
+12:19:16.770 [debug] sequential_int_gen: <0.139.0>: 50000 (80%)
+12:19:16.802 [debug] sequential_int_gen: <0.141.0>: 50000 (80%)
+12:19:17.466 [debug] sequential_int_gen: <0.221.0>: 50000 (80%)
+12:19:17.671 [debug] sequential_int_gen: <0.199.0>: 50000 (80%)
+12:19:17.774 [debug] sequential_int_gen: <0.181.0>: 50000 (80%)
+12:19:18.206 [debug] sequential_int_gen: <0.169.0>: 50000 (80%)
+12:19:18.281 [debug] sequential_int_gen: <0.125.0>: 50000 (80%)
+12:19:18.390 [debug] sequential_int_gen: <0.109.0>: 50000 (80%)
+12:19:18.571 [debug] sequential_int_gen: <0.131.0>: 50000 (80%)
+12:19:19.118 [debug] sequential_int_gen: <0.165.0>: 50000 (80%)
+12:19:19.182 [debug] sequential_int_gen: <0.123.0>: 50000 (80%)
+12:19:19.432 [debug] sequential_int_gen: <0.149.0>: 50000 (80%)
+12:19:20.051 [info] Errors:[{{put,put},3},{{{put,put},{put,connection_closing}},3}]
+12:19:20.289 [debug] sequential_int_gen: <0.103.0>: 50000 (80%)
+12:19:22.101 [debug] sequential_int_gen: <0.203.0>: 50000 (80%)
+12:19:25.211 [debug] sequential_int_gen: <0.185.0>: 55000 (88%)
+12:19:25.932 [debug] sequential_int_gen: <0.143.0>: 55000 (88%)
+12:19:27.232 [debug] sequential_int_gen: <0.101.0>: 55000 (88%)
+12:19:27.648 [debug] sequential_int_gen: <0.191.0>: 55000 (88%)
+12:19:27.775 [debug] sequential_int_gen: <0.135.0>: 55000 (88%)
+12:19:27.821 [debug] sequential_int_gen: <0.207.0>: 55000 (88%)
+12:19:28.203 [debug] sequential_int_gen: <0.225.0>: 55000 (88%)
+12:19:28.445 [debug] sequential_int_gen: <0.129.0>: 55000 (88%)
+12:19:28.574 [debug] sequential_int_gen: <0.127.0>: 55000 (88%)
+12:19:28.656 [debug] sequential_int_gen: <0.189.0>: 55000 (88%)
+12:19:28.832 [debug] sequential_int_gen: <0.219.0>: 55000 (88%)
+12:19:28.843 [debug] sequential_int_gen: <0.175.0>: 55000 (88%)
+12:19:29.065 [debug] sequential_int_gen: <0.105.0>: 55000 (88%)
+12:19:29.095 [debug] sequential_int_gen: <0.183.0>: 55000 (88%)
+12:19:29.397 [debug] sequential_int_gen: <0.115.0>: 55000 (88%)
+12:19:29.434 [debug] sequential_int_gen: <0.153.0>: 55000 (88%)
+12:19:29.573 [debug] sequential_int_gen: <0.147.0>: 55000 (88%)
+12:19:29.636 [debug] sequential_int_gen: <0.213.0>: 55000 (88%)
+12:19:30.236 [debug] sequential_int_gen: <0.157.0>: 55000 (88%)
+12:19:30.276 [debug] sequential_int_gen: <0.217.0>: 55000 (88%)
+12:19:30.322 [debug] sequential_int_gen: <0.121.0>: 55000 (88%)
+12:19:30.459 [debug] sequential_int_gen: <0.161.0>: 55000 (88%)
+12:19:30.601 [debug] sequential_int_gen: <0.201.0>: 55000 (88%)
+12:19:30.656 [debug] sequential_int_gen: <0.177.0>: 55000 (88%)
+12:19:30.733 [debug] sequential_int_gen: <0.193.0>: 55000 (88%)
+12:19:30.792 [debug] sequential_int_gen: <0.205.0>: 55000 (88%)
+12:19:30.806 [debug] sequential_int_gen: <0.211.0>: 55000 (88%)
+12:19:30.826 [debug] sequential_int_gen: <0.107.0>: 55000 (88%)
+12:19:30.861 [debug] sequential_int_gen: <0.159.0>: 55000 (88%)
+12:19:30.899 [debug] sequential_int_gen: <0.197.0>: 55000 (88%)
+12:19:31.026 [debug] sequential_int_gen: <0.155.0>: 55000 (88%)
+12:19:31.289 [debug] sequential_int_gen: <0.195.0>: 55000 (88%)
+12:19:31.291 [debug] sequential_int_gen: <0.151.0>: 55000 (88%)
+12:19:31.416 [debug] sequential_int_gen: <0.171.0>: 55000 (88%)
+12:19:31.424 [debug] sequential_int_gen: <0.113.0>: 55000 (88%)
+12:19:31.445 [debug] sequential_int_gen: <0.145.0>: 55000 (88%)
+12:19:31.491 [debug] sequential_int_gen: <0.119.0>: 55000 (88%)
+12:19:31.884 [debug] sequential_int_gen: <0.215.0>: 55000 (88%)
+12:19:31.904 [debug] sequential_int_gen: <0.93.0>: 55000 (88%)
+12:19:31.923 [debug] sequential_int_gen: <0.223.0>: 55000 (88%)
+12:19:31.956 [debug] sequential_int_gen: <0.173.0>: 55000 (88%)
+12:19:32.043 [debug] sequential_int_gen: <0.133.0>: 55000 (88%)
+12:19:32.120 [debug] sequential_int_gen: <0.163.0>: 55000 (88%)
+12:19:32.468 [debug] sequential_int_gen: <0.137.0>: 55000 (88%)
+12:19:32.481 [debug] sequential_int_gen: <0.141.0>: 55000 (88%)
+12:19:32.533 [debug] sequential_int_gen: <0.209.0>: 55000 (88%)
+12:19:32.661 [debug] sequential_int_gen: <0.187.0>: 55000 (88%)
+12:19:32.734 [debug] sequential_int_gen: <0.117.0>: 55000 (88%)
+12:19:32.791 [debug] sequential_int_gen: <0.139.0>: 55000 (88%)
+12:19:32.898 [debug] sequential_int_gen: <0.179.0>: 55000 (88%)
+12:19:33.751 [debug] sequential_int_gen: <0.167.0>: 55000 (88%)
+12:19:33.783 [debug] sequential_int_gen: <0.199.0>: 55000 (88%)
+12:19:33.907 [debug] sequential_int_gen: <0.131.0>: 55000 (88%)
+12:19:33.992 [debug] sequential_int_gen: <0.111.0>: 55000 (88%)
+12:19:34.125 [debug] sequential_int_gen: <0.221.0>: 55000 (88%)
+12:19:34.269 [debug] sequential_int_gen: <0.125.0>: 55000 (88%)
+12:19:34.311 [debug] sequential_int_gen: <0.169.0>: 55000 (88%)
+12:19:34.419 [debug] sequential_int_gen: <0.181.0>: 55000 (88%)
+12:19:34.850 [debug] sequential_int_gen: <0.149.0>: 55000 (88%)
+12:19:35.059 [debug] sequential_int_gen: <0.109.0>: 55000 (88%)
+12:19:35.764 [debug] sequential_int_gen: <0.123.0>: 55000 (88%)
+12:19:36.755 [debug] sequential_int_gen: <0.165.0>: 55000 (88%)
+12:19:37.514 [debug] sequential_int_gen: <0.203.0>: 55000 (88%)
+12:19:38.283 [debug] sequential_int_gen: <0.103.0>: 55000 (88%)
+12:19:40.158 [info] Errors:[{{put,put},1},{{{put,put},{put,connection_closing}},1}]
+12:19:41.689 [debug] sequential_int_gen: <0.143.0>: 60000 (96%)
+12:19:41.794 [debug] sequential_int_gen: <0.185.0>: 60000 (96%)
+12:19:42.491 [debug] sequential_int_gen: <0.101.0>: 60000 (96%)
+12:19:42.920 [debug] sequential_int_gen: <0.189.0>: 60000 (96%)
+12:19:43.190 [debug] sequential_int_gen: <0.135.0>: 60000 (96%)
+12:19:43.376 [debug] sequential_int_gen: <0.191.0>: 60000 (96%)
+12:19:43.699 [debug] sequential_int_gen: <0.207.0>: 60000 (96%)
+12:19:43.745 [debug] sequential_int_gen: <0.115.0>: 60000 (96%)
+12:19:43.906 [debug] sequential_int_gen: <0.127.0>: 60000 (96%)
+12:19:44.330 [debug] sequential_int_gen: <0.129.0>: 60000 (96%)
+12:19:44.364 [debug] sequential_int_gen: <0.225.0>: 60000 (96%)
+12:19:44.537 [debug] sequential_int_gen: <0.183.0>: 60000 (96%)
+12:19:44.772 [debug] sequential_int_gen: <0.175.0>: 60000 (96%)
+12:19:44.807 [debug] sequential_int_gen: <0.213.0>: 60000 (96%)
+12:19:44.919 [debug] sequential_int_gen: <0.121.0>: 60000 (96%)
+12:19:45.630 [debug] sequential_int_gen: <0.153.0>: 60000 (96%)
+12:19:45.634 [debug] sequential_int_gen: <0.159.0>: 60000 (96%)
+12:19:46.162 [debug] sequential_int_gen: <0.211.0>: 60000 (96%)
+12:19:46.269 [debug] sequential_int_gen: <0.105.0>: 60000 (96%)
+12:19:46.272 [debug] sequential_int_gen: <0.157.0>: 60000 (96%)
+12:19:46.532 [debug] sequential_int_gen: <0.205.0>: 60000 (96%)
+12:19:46.572 [debug] sequential_int_gen: <0.193.0>: 60000 (96%)
+12:19:46.687 [debug] sequential_int_gen: <0.151.0>: 60000 (96%)
+12:19:46.853 [debug] sequential_int_gen: <0.197.0>: 60000 (96%)
+12:19:46.896 [debug] sequential_int_gen: <0.219.0>: 60000 (96%)
+12:19:46.921 [debug] sequential_int_gen: <0.161.0>: 60000 (96%)
+12:19:46.992 [debug] sequential_int_gen: <0.201.0>: 60000 (96%)
+12:19:47.231 [debug] sequential_int_gen: <0.217.0>: 60000 (96%)
+12:19:47.280 [debug] sequential_int_gen: <0.113.0>: 60000 (96%)
+12:19:47.501 [debug] sequential_int_gen: <0.119.0>: 60000 (96%)
+12:19:47.652 [debug] sequential_int_gen: <0.177.0>: 60000 (96%)
+12:19:47.720 [debug] sequential_int_gen: <0.209.0>: 60000 (96%)
+12:19:47.801 [debug] sequential_int_gen: <0.147.0>: 60000 (96%)
+12:19:47.802 [debug] sequential_int_gen: <0.155.0>: 60000 (96%)
+12:19:47.855 [debug] sequential_int_gen: <0.139.0>: 60000 (96%)
+12:19:47.894 [debug] sequential_int_gen: <0.195.0>: 60000 (96%)
+12:19:47.956 [debug] sequential_int_gen: <0.173.0>: 60000 (96%)
+12:19:48.078 [debug] sequential_int_gen: <0.145.0>: 60000 (96%)
+12:19:48.148 [debug] sequential_int_gen: <0.163.0>: 60000 (96%)
+12:19:48.243 [debug] sequential_int_gen: <0.93.0>: 60000 (96%)
+12:19:48.316 [debug] sequential_int_gen: <0.107.0>: 60000 (96%)
+12:19:48.347 [debug] sequential_int_gen: <0.171.0>: 60000 (96%)
+12:19:48.420 [debug] sequential_int_gen: <0.223.0>: 60000 (96%)
+12:19:48.770 [debug] sequential_int_gen: <0.215.0>: 60000 (96%)
+12:19:48.801 [debug] sequential_int_gen: <0.179.0>: 60000 (96%)
+12:19:49.059 [debug] sequential_int_gen: <0.133.0>: 60000 (96%)
+12:19:49.060 [debug] sequential_int_gen: <0.117.0>: 60000 (96%)
+12:19:49.205 [debug] sequential_int_gen: <0.111.0>: 60000 (96%)
+12:19:49.232 [debug] sequential_int_gen: <0.199.0>: 60000 (96%)
+12:19:49.485 [debug] sequential_int_gen: <0.187.0>: 60000 (96%)
+12:19:49.790 [debug] sequential_int_gen: <0.137.0>: 60000 (96%)
+12:19:49.834 [debug] sequential_int_gen: <0.141.0>: 60000 (96%)
+12:19:49.925 [debug] sequential_int_gen: <0.169.0>: 60000 (96%)
+12:19:49.955 [debug] sequential_int_gen: <0.167.0>: 60000 (96%)
+12:19:50.071 [debug] sequential_int_gen: <0.131.0>: 60000 (96%)
+12:19:50.153 [debug] sequential_int_gen: <0.123.0>: 60000 (96%)
+12:19:50.260 [info] Driver basho_bench_driver_leofs (<0.143.0>) has requested stop: empty_keygen
+12:19:50.709 [debug] sequential_int_gen: <0.181.0>: 60000 (96%)
+12:19:50.743 [info] Driver basho_bench_driver_leofs (<0.135.0>) has requested stop: empty_keygen
+12:19:50.887 [info] Driver basho_bench_driver_leofs (<0.101.0>) has requested stop: empty_keygen
+12:19:50.922 [info] Driver basho_bench_driver_leofs (<0.185.0>) has requested stop: empty_keygen
+12:19:50.994 [debug] sequential_int_gen: <0.125.0>: 60000 (96%)
+12:19:51.035 [debug] sequential_int_gen: <0.221.0>: 60000 (96%)
+12:19:51.061 [debug] sequential_int_gen: <0.109.0>: 60000 (96%)
+12:19:51.079 [debug] sequential_int_gen: <0.149.0>: 60000 (96%)
+12:19:51.310 [info] Driver basho_bench_driver_leofs (<0.189.0>) has requested stop: empty_keygen
+12:19:51.687 [info] Driver basho_bench_driver_leofs (<0.191.0>) has requested stop: empty_keygen
+12:19:51.796 [info] Driver basho_bench_driver_leofs (<0.183.0>) has requested stop: empty_keygen
+12:19:51.930 [info] Driver basho_bench_driver_leofs (<0.127.0>) has requested stop: empty_keygen
+12:19:52.150 [info] Driver basho_bench_driver_leofs (<0.225.0>) has requested stop: empty_keygen
+12:19:52.380 [info] Driver basho_bench_driver_leofs (<0.115.0>) has requested stop: empty_keygen
+12:19:52.895 [info] Driver basho_bench_driver_leofs (<0.207.0>) has requested stop: empty_keygen
+12:19:52.935 [info] Driver basho_bench_driver_leofs (<0.121.0>) has requested stop: empty_keygen
+12:19:53.258 [info] Driver basho_bench_driver_leofs (<0.129.0>) has requested stop: empty_keygen
+12:19:53.611 [info] Driver basho_bench_driver_leofs (<0.153.0>) has requested stop: empty_keygen
+12:19:53.751 [info] Driver basho_bench_driver_leofs (<0.157.0>) has requested stop: empty_keygen
+12:19:53.779 [info] Driver basho_bench_driver_leofs (<0.159.0>) has requested stop: empty_keygen
+12:19:53.812 [info] Driver basho_bench_driver_leofs (<0.213.0>) has requested stop: empty_keygen
+12:19:53.815 [info] Driver basho_bench_driver_leofs (<0.175.0>) has requested stop: empty_keygen
+12:19:53.829 [info] Driver basho_bench_driver_leofs (<0.193.0>) has requested stop: empty_keygen
+12:19:53.882 [info] Driver basho_bench_driver_leofs (<0.105.0>) has requested stop: empty_keygen
+12:19:54.158 [info] Driver basho_bench_driver_leofs (<0.151.0>) has requested stop: empty_keygen
+12:19:54.564 [debug] sequential_int_gen: <0.165.0>: 60000 (96%)
+12:19:54.725 [info] Driver basho_bench_driver_leofs (<0.197.0>) has requested stop: empty_keygen
+12:19:54.768 [info] Driver basho_bench_driver_leofs (<0.219.0>) has requested stop: empty_keygen
+12:19:55.008 [info] Driver basho_bench_driver_leofs (<0.211.0>) has requested stop: empty_keygen
+12:19:55.128 [info] Driver basho_bench_driver_leofs (<0.217.0>) has requested stop: empty_keygen
+12:19:55.148 [info] Driver basho_bench_driver_leofs (<0.113.0>) has requested stop: empty_keygen
+12:19:55.161 [info] Driver basho_bench_driver_leofs (<0.209.0>) has requested stop: empty_keygen
+12:19:55.209 [debug] sequential_int_gen: <0.103.0>: 60000 (96%)
+12:19:55.228 [debug] sequential_int_gen: <0.203.0>: 60000 (96%)
+12:19:55.245 [info] Driver basho_bench_driver_leofs (<0.163.0>) has requested stop: empty_keygen
+12:19:55.266 [info] Driver basho_bench_driver_leofs (<0.173.0>) has requested stop: empty_keygen
+12:19:55.311 [info] Driver basho_bench_driver_leofs (<0.161.0>) has requested stop: empty_keygen
+12:19:55.332 [info] Driver basho_bench_driver_leofs (<0.205.0>) has requested stop: empty_keygen
+12:19:55.425 [info] Driver basho_bench_driver_leofs (<0.201.0>) has requested stop: empty_keygen
+12:19:55.462 [info] Driver basho_bench_driver_leofs (<0.145.0>) has requested stop: empty_keygen
+12:19:55.500 [info] Driver basho_bench_driver_leofs (<0.147.0>) has requested stop: empty_keygen
+12:19:55.608 [info] Driver basho_bench_driver_leofs (<0.215.0>) has requested stop: empty_keygen
+12:19:55.615 [info] Driver basho_bench_driver_leofs (<0.119.0>) has requested stop: empty_keygen
+12:19:55.708 [info] Driver basho_bench_driver_leofs (<0.177.0>) has requested stop: empty_keygen
+12:19:55.724 [info] Driver basho_bench_driver_leofs (<0.155.0>) has requested stop: empty_keygen
+12:19:55.792 [info] Driver basho_bench_driver_leofs (<0.107.0>) has requested stop: empty_keygen
+12:19:55.792 [info] Driver basho_bench_driver_leofs (<0.139.0>) has requested stop: empty_keygen
+12:19:55.860 [info] Driver basho_bench_driver_leofs (<0.117.0>) has requested stop: empty_keygen
+12:19:55.886 [info] Driver basho_bench_driver_leofs (<0.111.0>) has requested stop: empty_keygen
+12:19:56.007 [info] Driver basho_bench_driver_leofs (<0.195.0>) has requested stop: empty_keygen
+12:19:56.107 [info] Driver basho_bench_driver_leofs (<0.171.0>) has requested stop: empty_keygen
+12:19:56.191 [info] Driver basho_bench_driver_leofs (<0.223.0>) has requested stop: empty_keygen
+12:19:56.193 [info] Driver basho_bench_driver_leofs (<0.93.0>) has requested stop: empty_keygen
+12:19:56.256 [info] Driver basho_bench_driver_leofs (<0.179.0>) has requested stop: empty_keygen
+12:19:56.361 [info] Driver basho_bench_driver_leofs (<0.133.0>) has requested stop: empty_keygen
+12:19:56.543 [info] Driver basho_bench_driver_leofs (<0.169.0>) has requested stop: empty_keygen
+12:19:56.578 [info] Driver basho_bench_driver_leofs (<0.141.0>) has requested stop: empty_keygen
+12:19:56.796 [info] Driver basho_bench_driver_leofs (<0.167.0>) has requested stop: empty_keygen
+12:19:56.811 [info] Driver basho_bench_driver_leofs (<0.199.0>) has requested stop: empty_keygen
+12:19:56.900 [info] Driver basho_bench_driver_leofs (<0.123.0>) has requested stop: empty_keygen
+12:19:56.900 [info] Driver basho_bench_driver_leofs (<0.131.0>) has requested stop: empty_keygen
+12:19:56.958 [info] Driver basho_bench_driver_leofs (<0.187.0>) has requested stop: empty_keygen
+12:19:57.050 [info] Driver basho_bench_driver_leofs (<0.137.0>) has requested stop: empty_keygen
+12:19:57.139 [info] Driver basho_bench_driver_leofs (<0.181.0>) has requested stop: empty_keygen
+12:19:57.397 [info] Driver basho_bench_driver_leofs (<0.125.0>) has requested stop: empty_keygen
+12:19:57.547 [info] Driver basho_bench_driver_leofs (<0.109.0>) has requested stop: empty_keygen
+12:19:57.857 [info] Driver basho_bench_driver_leofs (<0.149.0>) has requested stop: empty_keygen
+12:19:58.213 [info] Driver basho_bench_driver_leofs (<0.221.0>) has requested stop: empty_keygen
+12:19:59.839 [info] Errors:[{{put,put},2},{{{put,put},{put,connection_closing}},2}]
+12:20:00.955 [info] Driver basho_bench_driver_leofs (<0.165.0>) has requested stop: empty_keygen
+12:20:01.582 [info] Driver basho_bench_driver_leofs (<0.203.0>) has requested stop: empty_keygen
+12:20:01.627 [info] Driver basho_bench_driver_leofs (<0.103.0>) has requested stop: empty_keygen
+12:20:01.794 [info] Total Errors:
+12:20:01.794 [info]   {{put,put},{put,connection_closing}}: 19
