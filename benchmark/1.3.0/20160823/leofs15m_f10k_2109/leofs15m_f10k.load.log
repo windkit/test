@@ -1,0 +1,192 @@
+11:04:18.218 [debug] Lager installed handler {lager_file_backend,
+                            "/tmp/build/80a524a5/leofs_basho_bench_bin/tests/20160823_110417/error.log"} into lager_event
+11:04:18.218 [debug] Lager installed handler {lager_file_backend,
+                            "/tmp/build/80a524a5/leofs_basho_bench_bin/tests/20160823_110417/console.log"} into lager_event
+11:04:18.218 [debug] Lager installed handler error_logger_lager_h into error_logger
+11:04:18.263 [debug] Supervisor gr_param_sup started gr_param:start_link(gr_lager_default_tracer_params) at pid <0.60.0>
+11:04:18.263 [debug] Supervisor gr_counter_sup started gr_counter:start_link(gr_lager_default_tracer_counters) at pid <0.61.0>
+11:04:18.263 [debug] Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_params_mgr, gr_lager_default_tracer_params, []) at pid <0.62.0>
+11:04:18.263 [debug] Supervisor gr_manager_sup started gr_manager:start_link(gr_lager_default_tracer_counters_mgr, gr_lager_default_tracer_counters, [{input,0},{filter,0},{output,0}]) at pid <0.63.0>
+11:04:18.681 [debug] Lager installed handler lager_backend_throttle into lager_event
+11:04:19.191 [info] Application lager started on node nonode@nohost
+11:04:19.192 [notice] Changed loglevel of /tmp/build/80a524a5/leofs_basho_bench_bin/tests/20160823_110417/console.log to debug
+11:04:19.206 [info] Est. data size: 195.31 GB
+11:04:19.279 [debug] Supervisor sasl_safe_sup started alarm_handler:start_link() at pid <0.73.0>
+11:04:19.280 [debug] Supervisor sasl_safe_sup started overload:start_link() at pid <0.74.0>
+11:04:19.280 [debug] Supervisor sasl_sup started supervisor:start_link({local,sasl_safe_sup}, sasl, safe) at pid <0.72.0>
+11:04:19.293 [debug] Supervisor sasl_sup started release_handler:start_link() at pid <0.75.0>
+11:04:19.293 [info] Application sasl started on node nonode@nohost
+11:04:19.311 [info] Application crypto started on node nonode@nohost
+11:04:19.972 [debug] Supervisor folsom_sup started folsom_sample_slide_sup:start_link() at pid <0.88.0>
+11:04:19.978 [debug] Supervisor folsom_sup started folsom_meter_timer_server:start_link() at pid <0.89.0>
+11:04:19.984 [debug] Supervisor folsom_sup started folsom_metrics_histogram_ets:start_link() at pid <0.90.0>
+11:04:19.984 [info] Application folsom started on node nonode@nohost
+11:04:20.020 [debug] Supervisor basho_bench_sup started basho_bench_stats:start_link() at pid <0.83.0>
+11:04:20.029 [debug] ID 1 generating range 0 to 312
+11:04:20.029 [debug] random source
+11:04:20.069 [debug] Supervisor ibrowse_sup started ibrowse:start_link() at pid <0.98.0>
+11:04:20.070 [info] Application ibrowse started on node nonode@nohost
+11:04:20.664 [debug] ID 2 generating range 312 to 624
+11:04:20.665 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_1, 1) at pid <0.92.0>
+11:04:21.339 [debug] ID 3 generating range 624 to 936
+11:04:21.340 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_2, 2) at pid <0.100.0>
+11:04:21.936 [debug] ID 4 generating range 936 to 1248
+11:04:21.936 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_3, 3) at pid <0.102.0>
+11:04:22.574 [debug] ID 5 generating range 1248 to 1560
+11:04:22.575 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_4, 4) at pid <0.104.0>
+11:04:23.211 [debug] ID 6 generating range 1560 to 1872
+11:04:23.211 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_5, 5) at pid <0.106.0>
+11:04:23.839 [debug] ID 7 generating range 1872 to 2184
+11:04:23.839 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_6, 6) at pid <0.108.0>
+11:04:24.486 [debug] ID 8 generating range 2184 to 2496
+11:04:24.487 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_7, 7) at pid <0.110.0>
+11:04:25.111 [debug] ID 9 generating range 2496 to 2808
+11:04:25.112 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_8, 8) at pid <0.112.0>
+11:04:25.746 [debug] ID 10 generating range 2808 to 3120
+11:04:25.747 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_9, 9) at pid <0.114.0>
+11:04:26.380 [debug] ID 11 generating range 3120 to 3432
+11:04:26.380 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_10, 10) at pid <0.116.0>
+11:04:27.039 [debug] ID 12 generating range 3432 to 3744
+11:04:27.040 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_11, 11) at pid <0.118.0>
+11:04:27.671 [debug] ID 13 generating range 3744 to 4056
+11:04:27.671 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_12, 12) at pid <0.120.0>
+11:04:28.329 [debug] ID 14 generating range 4056 to 4368
+11:04:28.330 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_13, 13) at pid <0.122.0>
+11:04:28.978 [debug] ID 15 generating range 4368 to 4680
+11:04:28.979 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_14, 14) at pid <0.124.0>
+11:04:29.615 [debug] ID 16 generating range 4680 to 4992
+11:04:29.615 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_15, 15) at pid <0.126.0>
+11:04:30.236 [debug] ID 17 generating range 4992 to 5304
+11:04:30.237 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_16, 16) at pid <0.128.0>
+11:04:30.872 [debug] ID 18 generating range 5304 to 5616
+11:04:30.872 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_17, 17) at pid <0.130.0>
+11:04:31.488 [debug] ID 19 generating range 5616 to 5928
+11:04:31.488 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_18, 18) at pid <0.132.0>
+11:04:32.122 [debug] ID 20 generating range 5928 to 6240
+11:04:32.123 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_19, 19) at pid <0.134.0>
+11:04:32.772 [debug] ID 21 generating range 6240 to 6552
+11:04:32.773 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_20, 20) at pid <0.136.0>
+11:04:33.383 [debug] ID 22 generating range 6552 to 6864
+11:04:33.383 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_21, 21) at pid <0.138.0>
+11:04:34.011 [debug] ID 23 generating range 6864 to 7176
+11:04:34.012 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_22, 22) at pid <0.140.0>
+11:04:34.607 [debug] ID 24 generating range 7176 to 7488
+11:04:34.607 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_23, 23) at pid <0.142.0>
+11:04:35.212 [debug] ID 25 generating range 7488 to 7800
+11:04:35.213 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_24, 24) at pid <0.144.0>
+11:04:35.831 [debug] ID 26 generating range 7800 to 8112
+11:04:35.832 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_25, 25) at pid <0.146.0>
+11:04:36.448 [debug] ID 27 generating range 8112 to 8424
+11:04:36.449 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_26, 26) at pid <0.148.0>
+11:04:37.081 [debug] ID 28 generating range 8424 to 8736
+11:04:37.082 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_27, 27) at pid <0.150.0>
+11:04:37.697 [debug] ID 29 generating range 8736 to 9048
+11:04:37.698 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_28, 28) at pid <0.152.0>
+11:04:38.311 [debug] ID 30 generating range 9048 to 9360
+11:04:38.312 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_29, 29) at pid <0.154.0>
+11:04:38.923 [debug] ID 31 generating range 9360 to 9672
+11:04:38.923 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_30, 30) at pid <0.156.0>
+11:04:39.572 [debug] ID 32 generating range 9672 to 10000
+11:04:39.572 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_31, 31) at pid <0.158.0>
+11:04:40.206 [debug] Supervisor basho_bench_sup started basho_bench_worker:start_link(basho_bench_worker_32, 32) at pid <0.160.0>
+11:04:40.206 [debug] Supervisor kernel_safe_sup started timer:start_link() at pid <0.162.0>
+11:04:40.216 [info] Starting max worker: <0.161.0> on nonode@nohost
+11:04:40.216 [info] Starting max worker: <0.157.0> on nonode@nohost
+11:04:40.216 [info] Starting max worker: <0.159.0> on nonode@nohost
+11:04:40.216 [info] Starting max worker: <0.155.0> on nonode@nohost
+11:04:40.217 [debug] sequential_int_gen: <0.161.0>: 0 (0%)
+11:04:40.217 [debug] sequential_int_gen: <0.159.0>: 0 (0%)
+11:04:40.217 [debug] sequential_int_gen: <0.157.0>: 0 (0%)
+11:04:40.217 [debug] sequential_int_gen: <0.155.0>: 0 (0%)
+11:04:40.217 [info] Starting max worker: <0.153.0> on nonode@nohost
+11:04:40.217 [debug] sequential_int_gen: <0.153.0>: 0 (0%)
+11:04:40.217 [info] Starting max worker: <0.151.0> on nonode@nohost
+11:04:40.217 [info] Starting max worker: <0.149.0> on nonode@nohost
+11:04:40.217 [info] Starting max worker: <0.147.0> on nonode@nohost
+11:04:40.217 [debug] sequential_int_gen: <0.151.0>: 0 (0%)
+11:04:40.217 [debug] sequential_int_gen: <0.149.0>: 0 (0%)
+11:04:40.217 [info] Starting max worker: <0.145.0> on nonode@nohost
+11:04:40.217 [debug] sequential_int_gen: <0.147.0>: 0 (0%)
+11:04:40.217 [debug] sequential_int_gen: <0.145.0>: 0 (0%)
+11:04:40.217 [info] Starting max worker: <0.143.0> on nonode@nohost
+11:04:40.217 [info] Starting max worker: <0.141.0> on nonode@nohost
+11:04:40.217 [debug] sequential_int_gen: <0.143.0>: 0 (0%)
+11:04:40.217 [debug] sequential_int_gen: <0.141.0>: 0 (0%)
+11:04:40.217 [info] Starting max worker: <0.139.0> on nonode@nohost
+11:04:40.217 [debug] sequential_int_gen: <0.139.0>: 0 (0%)
+11:04:40.217 [info] Starting max worker: <0.137.0> on nonode@nohost
+11:04:40.218 [debug] sequential_int_gen: <0.137.0>: 0 (0%)
+11:04:40.218 [info] Starting max worker: <0.135.0> on nonode@nohost
+11:04:40.218 [debug] sequential_int_gen: <0.135.0>: 0 (0%)
+11:04:40.218 [info] Starting max worker: <0.133.0> on nonode@nohost
+11:04:40.218 [debug] sequential_int_gen: <0.133.0>: 0 (0%)
+11:04:40.218 [info] Starting max worker: <0.131.0> on nonode@nohost
+11:04:40.218 [debug] sequential_int_gen: <0.131.0>: 0 (0%)
+11:04:40.218 [info] Starting max worker: <0.129.0> on nonode@nohost
+11:04:40.218 [debug] sequential_int_gen: <0.129.0>: 0 (0%)
+11:04:40.218 [info] Starting max worker: <0.127.0> on nonode@nohost
+11:04:40.218 [info] Starting max worker: <0.125.0> on nonode@nohost
+11:04:40.218 [info] Starting max worker: <0.123.0> on nonode@nohost
+11:04:40.218 [info] Starting max worker: <0.121.0> on nonode@nohost
+11:04:40.218 [info] Starting max worker: <0.119.0> on nonode@nohost
+11:04:40.218 [info] Starting max worker: <0.117.0> on nonode@nohost
+11:04:40.218 [info] Starting max worker: <0.115.0> on nonode@nohost
+11:04:40.218 [info] Starting max worker: <0.113.0> on nonode@nohost
+11:04:40.218 [info] Starting max worker: <0.111.0> on nonode@nohost
+11:04:40.218 [info] Starting max worker: <0.109.0> on nonode@nohost
+11:04:40.218 [info] Starting max worker: <0.107.0> on nonode@nohost
+11:04:40.218 [info] Starting max worker: <0.105.0> on nonode@nohost
+11:04:40.218 [info] Starting max worker: <0.103.0> on nonode@nohost
+11:04:40.218 [info] Starting max worker: <0.101.0> on nonode@nohost
+11:04:40.218 [info] Starting max worker: <0.93.0> on nonode@nohost
+11:04:40.219 [info] Application basho_bench started on node nonode@nohost
+11:04:40.219 [debug] sequential_int_gen: <0.127.0>: 0 (0%)
+11:04:40.220 [debug] sequential_int_gen: <0.125.0>: 0 (0%)
+11:04:40.220 [debug] sequential_int_gen: <0.123.0>: 0 (0%)
+11:04:40.220 [debug] sequential_int_gen: <0.121.0>: 0 (0%)
+11:04:40.220 [debug] sequential_int_gen: <0.119.0>: 0 (0%)
+11:04:40.220 [debug] sequential_int_gen: <0.117.0>: 0 (0%)
+11:04:40.220 [debug] sequential_int_gen: <0.115.0>: 0 (0%)
+11:04:40.220 [debug] sequential_int_gen: <0.113.0>: 0 (0%)
+11:04:40.220 [debug] sequential_int_gen: <0.111.0>: 0 (0%)
+11:04:40.220 [debug] sequential_int_gen: <0.109.0>: 0 (0%)
+11:04:40.220 [debug] sequential_int_gen: <0.107.0>: 0 (0%)
+11:04:40.220 [debug] sequential_int_gen: <0.105.0>: 0 (0%)
+11:04:40.221 [debug] sequential_int_gen: <0.103.0>: 0 (0%)
+11:04:40.221 [debug] sequential_int_gen: <0.101.0>: 0 (0%)
+11:04:40.221 [debug] sequential_int_gen: <0.93.0>: 0 (0%)
+11:04:40.283 [debug] Supervisor inet_gethost_native_sup started undefined at pid <0.228.0>
+11:04:40.284 [debug] Supervisor kernel_safe_sup started inet_gethost_native:start_link() at pid <0.227.0>
+11:06:35.845 [info] Driver basho_bench_driver_leofs (<0.129.0>) has requested stop: empty_keygen
+11:06:38.254 [info] Driver basho_bench_driver_leofs (<0.139.0>) has requested stop: empty_keygen
+11:06:39.184 [info] Driver basho_bench_driver_leofs (<0.131.0>) has requested stop: empty_keygen
+11:06:42.189 [info] Driver basho_bench_driver_leofs (<0.133.0>) has requested stop: empty_keygen
+11:06:42.194 [info] Driver basho_bench_driver_leofs (<0.145.0>) has requested stop: empty_keygen
+11:06:43.022 [info] Driver basho_bench_driver_leofs (<0.111.0>) has requested stop: empty_keygen
+11:06:43.202 [info] Driver basho_bench_driver_leofs (<0.159.0>) has requested stop: empty_keygen
+11:06:43.673 [info] Driver basho_bench_driver_leofs (<0.113.0>) has requested stop: empty_keygen
+11:06:45.112 [info] Driver basho_bench_driver_leofs (<0.117.0>) has requested stop: empty_keygen
+11:06:47.262 [info] Driver basho_bench_driver_leofs (<0.141.0>) has requested stop: empty_keygen
+11:06:47.319 [info] Driver basho_bench_driver_leofs (<0.101.0>) has requested stop: empty_keygen
+11:06:47.579 [info] Driver basho_bench_driver_leofs (<0.125.0>) has requested stop: empty_keygen
+11:06:47.848 [info] Driver basho_bench_driver_leofs (<0.121.0>) has requested stop: empty_keygen
+11:06:48.052 [info] Driver basho_bench_driver_leofs (<0.157.0>) has requested stop: empty_keygen
+11:06:48.193 [info] Driver basho_bench_driver_leofs (<0.153.0>) has requested stop: empty_keygen
+11:06:48.233 [info] Driver basho_bench_driver_leofs (<0.155.0>) has requested stop: empty_keygen
+11:06:48.336 [info] Driver basho_bench_driver_leofs (<0.147.0>) has requested stop: empty_keygen
+11:06:48.540 [info] Driver basho_bench_driver_leofs (<0.151.0>) has requested stop: empty_keygen
+11:06:48.841 [info] Driver basho_bench_driver_leofs (<0.127.0>) has requested stop: empty_keygen
+11:06:48.861 [info] Driver basho_bench_driver_leofs (<0.161.0>) has requested stop: empty_keygen
+11:06:49.071 [info] Driver basho_bench_driver_leofs (<0.143.0>) has requested stop: empty_keygen
+11:06:49.280 [info] Driver basho_bench_driver_leofs (<0.103.0>) has requested stop: empty_keygen
+11:06:49.511 [info] Driver basho_bench_driver_leofs (<0.107.0>) has requested stop: empty_keygen
+11:06:49.567 [info] Driver basho_bench_driver_leofs (<0.119.0>) has requested stop: empty_keygen
+11:06:50.247 [info] Driver basho_bench_driver_leofs (<0.149.0>) has requested stop: empty_keygen
+11:06:50.288 [info] Driver basho_bench_driver_leofs (<0.109.0>) has requested stop: empty_keygen
+11:06:50.498 [info] Driver basho_bench_driver_leofs (<0.123.0>) has requested stop: empty_keygen
+11:06:52.737 [info] Driver basho_bench_driver_leofs (<0.135.0>) has requested stop: empty_keygen
+11:06:52.750 [info] Driver basho_bench_driver_leofs (<0.115.0>) has requested stop: empty_keygen
+11:06:53.053 [info] Driver basho_bench_driver_leofs (<0.137.0>) has requested stop: empty_keygen
+11:06:53.308 [info] Driver basho_bench_driver_leofs (<0.93.0>) has requested stop: empty_keygen
+11:06:53.962 [info] Driver basho_bench_driver_leofs (<0.105.0>) has requested stop: empty_keygen
+11:06:53.964 [info] No Errors.
